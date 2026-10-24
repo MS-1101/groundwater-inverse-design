@@ -1,0 +1,29 @@
+[
+  {
+    "refinement": 4,
+    "dx_m": 25.0,
+    "dt_days": 0.5,
+    "receptor_545_mg_L": 0.06718313524130398,
+    "elapsed_s": 0.4671956249512732,
+    "mass_balance_relative": 1.807059303291117e-14,
+    "relative_l2_vs_6p25m": 0.15272539219683476
+  },
+  {
+    "refinement": 8,
+    "dx_m": 12.5,
+    "dt_days": 0.5,
+    "receptor_545_mg_L": 0.03860461332789623,
+    "elapsed_s": 2.5688850418664515,
+    "mass_balance_relative": 1.4035412064397024e-14,
+    "relative_l2_vs_6p25m": 0.05578691921691766
+  },
+  {
+    "refinement": 16,
+    "dx_m": 6.25,
+    "dt_days": 0.5,
+    "receptor_545_mg_L": 0.027655583248832948,
+    "elapsed_s": 14.676061416976154,
+    "mass_balance_relative": 2.6842725573159308e-14,
+    "relative_l2_vs_6p25m": 0.0
+  }
+]

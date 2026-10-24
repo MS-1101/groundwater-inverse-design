@@ -1,0 +1,45 @@
+{
+  "executable_version": "mf6: 6.8.0+8680167.dirty",
+  "executable_sha256": "79c2b823eddd21eab234745411e77ff41e21bfb4ac5bf10b126a5a9d9985c609",
+  "official_download_url": "https://github.com/MODFLOW-ORG/modflow6/releases/download/6.8.0/mf6.8.0_macarm.zip",
+  "source_url": "https://raw.githubusercontent.com/MODFLOW-ORG/modflow6-examples/ec5ac6134d3d25684fbdd5f204864258610f2330/scripts/ex-gwt-mt3dms-p09.py",
+  "source_sha256": "be244863e2b88a3cd1d010744d7cff445a37445c8cc3c4ff5cbac17694b99bb1",
+  "platform": "macOS-14.6.1-arm64-arm-64bit",
+  "flopy_version": "3.11.0",
+  "original_configuration": {
+    "grid": [
+      18,
+      14
+    ],
+    "dt_days": 1.0,
+    "duration_days": 730.0,
+    "advection": "TVD",
+    "dispersion": "MODFLOW full tensor, alh=20 m, ath1=4 m",
+    "source_mg_L": 57.87,
+    "source_interval_days": [
+      0,
+      365
+    ],
+    "differences_from_example": "IMS closure tightened from 1e-6 to 1e-10 and inner iteration limit raised from 300 to 500; output file names changed; MT3DMS executable was not run"
+  },
+  "original": {
+    "elapsed_s": 6.25941212521866,
+    "concentration_max_mg_L": [
+      3.984242763314289,
+      0.5147011554546903
+    ],
+    "concentration_min_mg_L": [
+      3.603609908196865e-08,
+      5.829550056488487e-10
+    ]
+  },
+  "matched_equation_comparison": {
+    "equations": "steady flow, upwind, no dispersion, dt=1 day; FV independent implementation",
+    "concentration_rmse_mg_L": 4.467255710850537e-11,
+    "concentration_max_abs_mg_L": 4.0231451503558446e-10,
+    "head_max_abs_m": 1.6669616798026254e-09,
+    "concentration_relative_l2": 1.292987226360363e-10,
+    "elapsed_mf6_s": 0.2814071658067405,
+    "elapsed_fv_s": 0.018228875007480383
+  }
+}

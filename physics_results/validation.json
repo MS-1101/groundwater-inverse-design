@@ -1,0 +1,202 @@
+{
+  "scope": "Synthetic benchmark-derived numerical validation; CPU execution, no field data.",
+  "test_log_k": [
+    0.2,
+    -0.2
+  ],
+  "test_amplitudes_mg_L": [
+    45.0,
+    75.0,
+    30.0
+  ],
+  "times_days": [
+    180.0,
+    365.0,
+    545.0
+  ],
+  "nominal": {
+    "mass_balance_relative": 1.7544265080496308e-15,
+    "flow_residual_m3_day": 5.5434084852699976e-11,
+    "minimum_concentration": 3.0072049445542694e-10
+  },
+  "linear_head": {
+    "max_head_error_m": 3.694822225952521e-13,
+    "no_flow_side_boundary": true
+  },
+  "analytic_diffusion": [
+    {
+      "refinement": 1,
+      "dx_m": 100.0,
+      "dt_days": 4.0,
+      "rmse_mg_L": 0.00030251506275715375,
+      "mass_relative_error": 2.8121244310247516e-15,
+      "minimum": 0.6411548724170354
+    },
+    {
+      "refinement": 2,
+      "dx_m": 50.0,
+      "dt_days": 1.0,
+      "rmse_mg_L": 7.580390107431318e-05,
+      "mass_relative_error": 7.433758194546199e-15,
+      "minimum": 0.6388718712459304,
+      "observed_order": 1.9966629780811416
+    },
+    {
+      "refinement": 4,
+      "dx_m": 25.0,
+      "dt_days": 0.25,
+      "rmse_mg_L": 1.896195730235626e-05,
+      "mass_relative_error": 3.5817551526118145e-14,
+      "minimum": 0.638300423249398,
+      "observed_order": 1.9991642046637346
+    }
+  ],
+  "superposition_max_absolute_mg_L": 3.469446951953614e-17,
+  "maximum_positive_transport_offdiagonal": 0.0,
+  "parameter_corner_checks": [
+    {
+      "log_k": [
+        -0.5,
+        -0.5
+      ],
+      "mass_balance_relative": 5.438722174953855e-15,
+      "flow_residual_m3_day": 2.951189358101873e-11,
+      "minimum_concentration": 2.5719623443628744e-09
+    },
+    {
+      "log_k": [
+        -0.5,
+        0.0
+      ],
+      "mass_balance_relative": 3.5088530160992616e-15,
+      "flow_residual_m3_day": 2.548272748863219e-11,
+      "minimum_concentration": 2.53615675875778e-09
+    },
+    {
+      "log_k": [
+        -0.5,
+        0.5
+      ],
+      "mass_balance_relative": 4.5615089209290396e-15,
+      "flow_residual_m3_day": 2.6140956005645962e-11,
+      "minimum_concentration": 2.47865283920159e-09
+    },
+    {
+      "log_k": [
+        0.0,
+        -0.5
+      ],
+      "mass_balance_relative": 1.2280985556347416e-15,
+      "flow_residual_m3_day": 3.674371568366251e-11,
+      "minimum_concentration": 1.2438090681859975e-09
+    },
+    {
+      "log_k": [
+        0.0,
+        0.0
+      ],
+      "mass_balance_relative": 2.456197111269483e-15,
+      "flow_residual_m3_day": 4.374189293060903e-11,
+      "minimum_concentration": 1.239753455251426e-09
+    },
+    {
+      "log_k": [
+        0.0,
+        0.5
+      ],
+      "mass_balance_relative": 1.9298691588545938e-15,
+      "flow_residual_m3_day": 3.305173152898455e-11,
+      "minimum_concentration": 1.2330378767390292e-09
+    },
+    {
+      "log_k": [
+        0.5,
+        -0.5
+      ],
+      "mass_balance_relative": 1.0526559048297784e-15,
+      "flow_residual_m3_day": 5.6040215048626474e-11,
+      "minimum_concentration": 5.5775555925009454e-11
+    },
+    {
+      "log_k": [
+        0.5,
+        0.0
+      ],
+      "mass_balance_relative": 3.8597383177091876e-15,
+      "flow_residual_m3_day": 4.2692164570728804e-11,
+      "minimum_concentration": 5.624413291098211e-11
+    },
+    {
+      "log_k": [
+        0.5,
+        0.5
+      ],
+      "mass_balance_relative": 1.2280985556347404e-15,
+      "flow_residual_m3_day": 4.268901769948438e-11,
+      "minimum_concentration": 5.6929759252074445e-11
+    }
+  ],
+  "time_refinement": [
+    {
+      "dt_days": 8.0,
+      "relative_l2_vs_quarter_day": 0.02794514964064997,
+      "receptor_545_mg_L": 0.1394153607489034,
+      "mass_balance_relative": 1.9298691588545926e-15
+    },
+    {
+      "dt_days": 4.0,
+      "relative_l2_vs_quarter_day": 0.014489496939201815,
+      "receptor_545_mg_L": 0.13101675922711217,
+      "mass_balance_relative": 2.456197111269481e-15
+    },
+    {
+      "dt_days": 2.0,
+      "relative_l2_vs_quarter_day": 0.006969104102631931,
+      "receptor_545_mg_L": 0.12640679098317165,
+      "mass_balance_relative": 1.7544265080496308e-15
+    },
+    {
+      "dt_days": 1.0,
+      "relative_l2_vs_quarter_day": 0.0030676102158889184,
+      "receptor_545_mg_L": 0.12401784357598575,
+      "mass_balance_relative": 2.2807544604645245e-15
+    },
+    {
+      "dt_days": 0.5,
+      "relative_l2_vs_quarter_day": 0.0010303024353428645,
+      "receptor_545_mg_L": 0.12279501496263595,
+      "mass_balance_relative": 1.4561740016811912e-14
+    }
+  ],
+  "grid_refinement": [
+    {
+      "refinement": 1,
+      "dx_m": 100.0,
+      "dt_days": 0.5,
+      "receptor_545_mg_L": 0.12279501496263595,
+      "mass_balance_relative": 1.4561740016811912e-14,
+      "elapsed_s": 0.032331000082194805,
+      "relative_l2_vs_25m": 0.32211116871152523
+    },
+    {
+      "refinement": 2,
+      "dx_m": 50.0,
+      "dt_days": 0.5,
+      "receptor_545_mg_L": 0.10183617794512884,
+      "mass_balance_relative": 6.140492778173719e-15,
+      "elapsed_s": 0.10357858380302787,
+      "relative_l2_vs_25m": 0.14872399095212246
+    },
+    {
+      "refinement": 4,
+      "dx_m": 25.0,
+      "dt_days": 0.5,
+      "receptor_545_mg_L": 0.06718313524130398,
+      "mass_balance_relative": 1.807059303291117e-14,
+      "elapsed_s": 0.4829141669906676,
+      "relative_l2_vs_25m": 0.0
+    }
+  ],
+  "refinement_definition": "100 m source and observation cell footprints retained; top/bottom 100 m strips keep Dirichlet heads; concentration observations use footprint averages.",
+  "elapsed_total_s": 1.1279619582928717
+}
