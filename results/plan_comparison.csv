@@ -1,0 +1,17 @@
+﻿case_seed,method,construction_order,well,x_m,y_m,independent_finite_model_expected_loss,status
+3001,coverage,1,W21,350.0,350.0,0.00011343234136728154,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,coverage,2,W24,950.0,350.0,0.00011343234136728154,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,coverage,3,W05,350.0,1150.0,0.00011343234136728154,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,coverage,4,W08,950.0,1150.0,0.00011343234136728154,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,parameter_information,1,W03,750.0,1350.0,8.673683887205017e-19,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,parameter_information,2,W10,550.0,950.0,8.673683887205017e-19,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,parameter_information,3,W21,350.0,350.0,8.673683887205017e-19,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,parameter_information,4,W11,750.0,950.0,8.673683887205017e-19,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,prediction_variance,1,W03,750.0,1350.0,8.673683887205017e-19,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,prediction_variance,2,W10,550.0,950.0,8.673683887205017e-19,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,prediction_variance,3,W21,350.0,350.0,8.673683887205017e-19,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,prediction_variance,4,W11,750.0,950.0,8.673683887205017e-19,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,decision_loss,1,W03,750.0,1350.0,4.336808939487212e-19,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,decision_loss,2,W13,350.0,750.0,4.336808939487212e-19,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,decision_loss,3,W18,550.0,550.0,4.336808939487212e-19,Research candidate; posterior calibration and numerical resolution require reassessment
+3001,decision_loss,4,W17,350.0,550.0,4.336808939487212e-19,Research candidate; posterior calibration and numerical resolution require reassessment

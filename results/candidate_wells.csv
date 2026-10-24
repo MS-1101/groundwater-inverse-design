@@ -1,0 +1,25 @@
+﻿well,base_grid_row_zero_based,base_grid_column_zero_based,x_m,y_m,sampling_day,position_type
+W01,4,3,350.0,1350.0,365,Virtual 100 m monitoring footprint
+W02,4,5,550.0,1350.0,365,Virtual 100 m monitoring footprint
+W03,4,7,750.0,1350.0,365,Virtual 100 m monitoring footprint
+W04,4,9,950.0,1350.0,365,Virtual 100 m monitoring footprint
+W05,6,3,350.0,1150.0,365,Virtual 100 m monitoring footprint
+W06,6,5,550.0,1150.0,365,Virtual 100 m monitoring footprint
+W07,6,7,750.0,1150.0,365,Virtual 100 m monitoring footprint
+W08,6,9,950.0,1150.0,365,Virtual 100 m monitoring footprint
+W09,8,3,350.0,950.0,365,Virtual 100 m monitoring footprint
+W10,8,5,550.0,950.0,365,Virtual 100 m monitoring footprint
+W11,8,7,750.0,950.0,365,Virtual 100 m monitoring footprint
+W12,8,9,950.0,950.0,365,Virtual 100 m monitoring footprint
+W13,10,3,350.0,750.0,365,Virtual 100 m monitoring footprint
+W14,10,5,550.0,750.0,365,Virtual 100 m monitoring footprint
+W15,10,7,750.0,750.0,365,Virtual 100 m monitoring footprint
+W16,10,9,950.0,750.0,365,Virtual 100 m monitoring footprint
+W17,12,3,350.0,550.0,365,Virtual 100 m monitoring footprint
+W18,12,5,550.0,550.0,365,Virtual 100 m monitoring footprint
+W19,12,7,750.0,550.0,365,Virtual 100 m monitoring footprint
+W20,12,9,950.0,550.0,365,Virtual 100 m monitoring footprint
+W21,14,3,350.0,350.0,365,Virtual 100 m monitoring footprint
+W22,14,5,550.0,350.0,365,Virtual 100 m monitoring footprint
+W23,14,7,750.0,350.0,365,Virtual 100 m monitoring footprint
+W24,14,9,950.0,350.0,365,Virtual 100 m monitoring footprint

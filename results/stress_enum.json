@@ -1,0 +1,2465 @@
+{
+  "status": "Exploratory enumeration on a fixed Monte Carlo objective, not exact population-risk global optimization",
+  "development_seed": 1102,
+  "pool_indices": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22
+  ],
+  "budget": 3,
+  "combinations_evaluated": 220,
+  "design_outer_draws": 256,
+  "validation_outer_draws": 4096,
+  "design_seed": 101102,
+  "validation_seed": 701102,
+  "enumerated_best_training": {
+    "selected_indices": [
+      2,
+      10,
+      20
+    ],
+    "decision_risk": 2.913757225221511e-13,
+    "predictive_variance": 4.844587243580086e-06,
+    "joint_information_nats": 1.3781921162857018
+  },
+  "greedy_training": {
+    "selected_indices": [
+      2,
+      20,
+      10
+    ],
+    "decision_risk": 2.9137658988388946e-13,
+    "predictive_variance": 4.844587243583392e-06,
+    "joint_information_nats": 1.3781921162857018
+  },
+  "enumeration_seconds": 1.3157917498610914,
+  "greedy_seconds": 0.19424383295699954,
+  "evaluation": {
+    "enumerated_best": {
+      "selected_indices": [
+        2,
+        10,
+        20
+      ],
+      "selected_wells": [
+        "W03",
+        "W11",
+        "W21"
+      ],
+      "decision_risk": 4.311122079302856e-12,
+      "predictive_variance": 4.186345333408015e-05,
+      "joint_information_nats": 1.3387816261560435,
+      "risk_standard_error": 1.7957062036612527e-12,
+      "predictive_rmse_mg_L": 0.006678281719015978,
+      "realized_loss_mean": 0.0,
+      "false_negative_count": 0,
+      "false_positive_count": 0,
+      "true_exceedance_count": 52,
+      "draws": 4096,
+      "posterior_effective_support_mean": 2.152822464906512
+    },
+    "greedy": {
+      "selected_indices": [
+        2,
+        20,
+        10
+      ],
+      "selected_wells": [
+        "W03",
+        "W21",
+        "W11"
+      ],
+      "decision_risk": 4.311122214828127e-12,
+      "predictive_variance": 4.186345333407979e-05,
+      "joint_information_nats": 1.3387816261560435,
+      "risk_standard_error": 1.7957062035817997e-12,
+      "predictive_rmse_mg_L": 0.006678281719015977,
+      "realized_loss_mean": 0.0,
+      "false_negative_count": 0,
+      "false_positive_count": 0,
+      "true_exceedance_count": 52,
+      "draws": 4096,
+      "posterior_effective_support_mean": 2.152822464906512
+    }
+  },
+  "greedy_minus_enumerated_validation_risk": 1.3552527038764305e-19,
+  "paired_standard_error": 8.129751019175032e-20,
+  "all_training_scores": [
+    {
+      "selected_indices": [
+        0,
+        2,
+        4
+      ],
+      "decision_risk": 1.0648645021727346e-10,
+      "predictive_variance": 0.0016994102661816767,
+      "joint_information_nats": 1.1715541205429063
+    },
+    {
+      "selected_indices": [
+        0,
+        2,
+        6
+      ],
+      "decision_risk": 1.588001523926972e-10,
+      "predictive_variance": 0.0015922479023809642,
+      "joint_information_nats": 1.1982452441659408
+    },
+    {
+      "selected_indices": [
+        0,
+        2,
+        8
+      ],
+      "decision_risk": 8.158511055905654e-11,
+      "predictive_variance": 0.0016351246114200781,
+      "joint_information_nats": 1.2142867931658983
+    },
+    {
+      "selected_indices": [
+        0,
+        2,
+        10
+      ],
+      "decision_risk": 6.6014825158029525e-12,
+      "predictive_variance": 0.0014017322311522516,
+      "joint_information_nats": 1.2212211659609067
+    },
+    {
+      "selected_indices": [
+        0,
+        2,
+        12
+      ],
+      "decision_risk": 6.631823289746612e-11,
+      "predictive_variance": 0.0008655627426036638,
+      "joint_information_nats": 1.2667609291808588
+    },
+    {
+      "selected_indices": [
+        0,
+        2,
+        14
+      ],
+      "decision_risk": 9.900370830509334e-11,
+      "predictive_variance": 0.001282210584318621,
+      "joint_information_nats": 1.2163217932570907
+    },
+    {
+      "selected_indices": [
+        0,
+        2,
+        16
+      ],
+      "decision_risk": 5.53825957570642e-10,
+      "predictive_variance": 0.0003173394053547899,
+      "joint_information_nats": 1.333489725046602
+    },
+    {
+      "selected_indices": [
+        0,
+        2,
+        18
+      ],
+      "decision_risk": 5.593568929657075e-11,
+      "predictive_variance": 0.0015118531279950894,
+      "joint_information_nats": 1.183538401737656
+    },
+    {
+      "selected_indices": [
+        0,
+        2,
+        20
+      ],
+      "decision_risk": 4.013772366749528e-12,
+      "predictive_variance": 1.1043406199733404e-05,
+      "joint_information_nats": 1.3757193749883911
+    },
+    {
+      "selected_indices": [
+        0,
+        2,
+        22
+      ],
+      "decision_risk": 2.552383666321017e-11,
+      "predictive_variance": 0.001615540817226056,
+      "joint_information_nats": 1.1743267428065178
+    },
+    {
+      "selected_indices": [
+        0,
+        4,
+        6
+      ],
+      "decision_risk": 0.0006234653666358984,
+      "predictive_variance": 0.0077682923957221005,
+      "joint_information_nats": 0.6083259515395463
+    },
+    {
+      "selected_indices": [
+        0,
+        4,
+        8
+      ],
+      "decision_risk": 0.0944000499123774,
+      "predictive_variance": 0.024183383484538384,
+      "joint_information_nats": 0.06742444284590235
+    },
+    {
+      "selected_indices": [
+        0,
+        4,
+        10
+      ],
+      "decision_risk": 6.041697046038026e-10,
+      "predictive_variance": 0.0015306693624564335,
+      "joint_information_nats": 1.1753249822677037
+    },
+    {
+      "selected_indices": [
+        0,
+        4,
+        12
+      ],
+      "decision_risk": 0.09518827721521123,
+      "predictive_variance": 0.02160450868943934,
+      "joint_information_nats": 0.1415968320205446
+    },
+    {
+      "selected_indices": [
+        0,
+        4,
+        14
+      ],
+      "decision_risk": 0.004308389041337206,
+      "predictive_variance": 0.007072392329975562,
+      "joint_information_nats": 0.6425885241000434
+    },
+    {
+      "selected_indices": [
+        0,
+        4,
+        16
+      ],
+      "decision_risk": 0.09450605486816899,
+      "predictive_variance": 0.01967240860943082,
+      "joint_information_nats": 0.22344295468185627
+    },
+    {
+      "selected_indices": [
+        0,
+        4,
+        18
+      ],
+      "decision_risk": 0.10154183747315995,
+      "predictive_variance": 0.023075248152598673,
+      "joint_information_nats": 0.06173315523532341
+    },
+    {
+      "selected_indices": [
+        0,
+        4,
+        20
+      ],
+      "decision_risk": 0.09358807953095243,
+      "predictive_variance": 0.01895053122982752,
+      "joint_information_nats": 0.2688564237559703
+    },
+    {
+      "selected_indices": [
+        0,
+        4,
+        22
+      ],
+      "decision_risk": 0.09569211549739522,
+      "predictive_variance": 0.02461302725516193,
+      "joint_information_nats": 0.005294509055469093
+    },
+    {
+      "selected_indices": [
+        0,
+        6,
+        8
+      ],
+      "decision_risk": 0.0004367418231381486,
+      "predictive_variance": 0.007542525929264906,
+      "joint_information_nats": 0.6642958100251403
+    },
+    {
+      "selected_indices": [
+        0,
+        6,
+        10
+      ],
+      "decision_risk": 5.875318995120796e-10,
+      "predictive_variance": 0.001406889648048601,
+      "joint_information_nats": 1.2104403086182045
+    },
+    {
+      "selected_indices": [
+        0,
+        6,
+        12
+      ],
+      "decision_risk": 0.0013955932156280687,
+      "predictive_variance": 0.007084551187540549,
+      "joint_information_nats": 0.7257921957641424
+    },
+    {
+      "selected_indices": [
+        0,
+        6,
+        14
+      ],
+      "decision_risk": 0.00021404904406470003,
+      "predictive_variance": 0.004083069714353781,
+      "joint_information_nats": 0.8708216578100453
+    },
+    {
+      "selected_indices": [
+        0,
+        6,
+        16
+      ],
+      "decision_risk": 0.00042434009376018857,
+      "predictive_variance": 0.00545221751004627,
+      "joint_information_nats": 0.7924733326742626
+    },
+    {
+      "selected_indices": [
+        0,
+        6,
+        18
+      ],
+      "decision_risk": 0.0006327902272128447,
+      "predictive_variance": 0.007245684670706737,
+      "joint_information_nats": 0.6464693785820941
+    },
+    {
+      "selected_indices": [
+        0,
+        6,
+        20
+      ],
+      "decision_risk": 0.0004320748339065215,
+      "predictive_variance": 0.005045600457821705,
+      "joint_information_nats": 0.8384397427258337
+    },
+    {
+      "selected_indices": [
+        0,
+        6,
+        22
+      ],
+      "decision_risk": 0.00042727972702095226,
+      "predictive_variance": 0.007469758360213094,
+      "joint_information_nats": 0.6122024222836717
+    },
+    {
+      "selected_indices": [
+        0,
+        8,
+        10
+      ],
+      "decision_risk": 5.83026773521217e-10,
+      "predictive_variance": 0.0015080026147043903,
+      "joint_information_nats": 1.2079323238826594
+    },
+    {
+      "selected_indices": [
+        0,
+        8,
+        12
+      ],
+      "decision_risk": 0.09469704366618165,
+      "predictive_variance": 0.02090785217867352,
+      "joint_information_nats": 0.1767373077376168
+    },
+    {
+      "selected_indices": [
+        0,
+        8,
+        14
+      ],
+      "decision_risk": 0.0038030257423558593,
+      "predictive_variance": 0.0068484271112375025,
+      "joint_information_nats": 0.6860185305769304
+    },
+    {
+      "selected_indices": [
+        0,
+        8,
+        16
+      ],
+      "decision_risk": 0.09460141443318265,
+      "predictive_variance": 0.019547498222441465,
+      "joint_information_nats": 0.22856305907535418
+    },
+    {
+      "selected_indices": [
+        0,
+        8,
+        18
+      ],
+      "decision_risk": 0.10062983163659545,
+      "predictive_variance": 0.022799211785303877,
+      "joint_information_nats": 0.1309445674816452
+    },
+    {
+      "selected_indices": [
+        0,
+        8,
+        20
+      ],
+      "decision_risk": 0.09348280010530596,
+      "predictive_variance": 0.018872529442909396,
+      "joint_information_nats": 0.27592312362796734
+    },
+    {
+      "selected_indices": [
+        0,
+        8,
+        22
+      ],
+      "decision_risk": 0.09440480064787818,
+      "predictive_variance": 0.024175609775685482,
+      "joint_information_nats": 0.07569461514854682
+    },
+    {
+      "selected_indices": [
+        0,
+        10,
+        12
+      ],
+      "decision_risk": 6.148321791590712e-10,
+      "predictive_variance": 0.0008829239235862383,
+      "joint_information_nats": 1.2583287450138214
+    },
+    {
+      "selected_indices": [
+        0,
+        10,
+        14
+      ],
+      "decision_risk": 5.929670180073629e-10,
+      "predictive_variance": 0.0012837949439657816,
+      "joint_information_nats": 1.2073063402301862
+    },
+    {
+      "selected_indices": [
+        0,
+        10,
+        16
+      ],
+      "decision_risk": 2.6535250155705034e-10,
+      "predictive_variance": 0.000471761122449795,
+      "joint_information_nats": 1.3006129983641097
+    },
+    {
+      "selected_indices": [
+        0,
+        10,
+        18
+      ],
+      "decision_risk": 5.031232973984188e-10,
+      "predictive_variance": 0.0014635456223488648,
+      "joint_information_nats": 1.181020843526409
+    },
+    {
+      "selected_indices": [
+        0,
+        10,
+        20
+      ],
+      "decision_risk": 4.2050790490512595e-10,
+      "predictive_variance": 0.00018389228311707038,
+      "joint_information_nats": 1.3360016740620613
+    },
+    {
+      "selected_indices": [
+        0,
+        10,
+        22
+      ],
+      "decision_risk": 3.917417521710338e-10,
+      "predictive_variance": 0.001488691326388924,
+      "joint_information_nats": 1.1785588596355705
+    },
+    {
+      "selected_indices": [
+        0,
+        12,
+        14
+      ],
+      "decision_risk": 0.004999572395150011,
+      "predictive_variance": 0.006678805195927002,
+      "joint_information_nats": 0.7417848200876165
+    },
+    {
+      "selected_indices": [
+        0,
+        12,
+        16
+      ],
+      "decision_risk": 0.09383168139900865,
+      "predictive_variance": 0.019146504930581794,
+      "joint_information_nats": 0.2574428438797257
+    },
+    {
+      "selected_indices": [
+        0,
+        12,
+        18
+      ],
+      "decision_risk": 0.10005106430675012,
+      "predictive_variance": 0.020871714643709613,
+      "joint_information_nats": 0.18133025381039208
+    },
+    {
+      "selected_indices": [
+        0,
+        12,
+        20
+      ],
+      "decision_risk": 0.09377447581750911,
+      "predictive_variance": 0.018870334623553357,
+      "joint_information_nats": 0.2686131545708539
+    },
+    {
+      "selected_indices": [
+        0,
+        12,
+        22
+      ],
+      "decision_risk": 0.09520102205282835,
+      "predictive_variance": 0.021583938864875155,
+      "joint_information_nats": 0.1478405636886081
+    },
+    {
+      "selected_indices": [
+        0,
+        14,
+        16
+      ],
+      "decision_risk": 0.0036552211768072604,
+      "predictive_variance": 0.00501699841328955,
+      "joint_information_nats": 0.790774695728683
+    },
+    {
+      "selected_indices": [
+        0,
+        14,
+        18
+      ],
+      "decision_risk": 0.003225590805098208,
+      "predictive_variance": 0.006522476811605386,
+      "joint_information_nats": 0.6654297676732948
+    },
+    {
+      "selected_indices": [
+        0,
+        14,
+        20
+      ],
+      "decision_risk": 0.003649975086953922,
+      "predictive_variance": 0.004699324813867993,
+      "joint_information_nats": 0.8229090077890504
+    },
+    {
+      "selected_indices": [
+        0,
+        14,
+        22
+      ],
+      "decision_risk": 0.0038381992994455127,
+      "predictive_variance": 0.006414284154911482,
+      "joint_information_nats": 0.6464147315901911
+    },
+    {
+      "selected_indices": [
+        0,
+        16,
+        18
+      ],
+      "decision_risk": 0.10194650911633768,
+      "predictive_variance": 0.01935674773101153,
+      "joint_information_nats": 0.26090265509644406
+    },
+    {
+      "selected_indices": [
+        0,
+        16,
+        20
+      ],
+      "decision_risk": 0.09379459495257099,
+      "predictive_variance": 0.018868495800615497,
+      "joint_information_nats": 0.26870336216396284
+    },
+    {
+      "selected_indices": [
+        0,
+        16,
+        22
+      ],
+      "decision_risk": 0.09451730694804084,
+      "predictive_variance": 0.0196549683577684,
+      "joint_information_nats": 0.23148929600006715
+    },
+    {
+      "selected_indices": [
+        0,
+        18,
+        20
+      ],
+      "decision_risk": 0.10125188384532635,
+      "predictive_variance": 0.018742066994023657,
+      "joint_information_nats": 0.30618311737398746
+    },
+    {
+      "selected_indices": [
+        0,
+        18,
+        22
+      ],
+      "decision_risk": 0.1018745564850243,
+      "predictive_variance": 0.023051962809615304,
+      "joint_information_nats": 0.06542733812620888
+    },
+    {
+      "selected_indices": [
+        0,
+        20,
+        22
+      ],
+      "decision_risk": 0.09360564749622263,
+      "predictive_variance": 0.018948127747037316,
+      "joint_information_nats": 0.27636502980008154
+    },
+    {
+      "selected_indices": [
+        2,
+        4,
+        6
+      ],
+      "decision_risk": 1.5871921017530428e-10,
+      "predictive_variance": 0.0015922699108107685,
+      "joint_information_nats": 1.1982454423230156
+    },
+    {
+      "selected_indices": [
+        2,
+        4,
+        8
+      ],
+      "decision_risk": 8.157981360151158e-11,
+      "predictive_variance": 0.0016352278208526818,
+      "joint_information_nats": 1.214294338258469
+    },
+    {
+      "selected_indices": [
+        2,
+        4,
+        10
+      ],
+      "decision_risk": 6.602130439660681e-12,
+      "predictive_variance": 0.0014016290513562666,
+      "joint_information_nats": 1.2212187342139798
+    },
+    {
+      "selected_indices": [
+        2,
+        4,
+        12
+      ],
+      "decision_risk": 6.6323693840736e-11,
+      "predictive_variance": 0.00086559481404008,
+      "joint_information_nats": 1.2667752087693112
+    },
+    {
+      "selected_indices": [
+        2,
+        4,
+        14
+      ],
+      "decision_risk": 9.898006328317e-11,
+      "predictive_variance": 0.0012822729671858467,
+      "joint_information_nats": 1.2163204248157085
+    },
+    {
+      "selected_indices": [
+        2,
+        4,
+        16
+      ],
+      "decision_risk": 5.534839506414711e-10,
+      "predictive_variance": 0.00031735278808701505,
+      "joint_information_nats": 1.3334926750000986
+    },
+    {
+      "selected_indices": [
+        2,
+        4,
+        18
+      ],
+      "decision_risk": 5.5910363540199347e-11,
+      "predictive_variance": 0.0015119352681620857,
+      "joint_information_nats": 1.1835369761500132
+    },
+    {
+      "selected_indices": [
+        2,
+        4,
+        20
+      ],
+      "decision_risk": 4.011791296889897e-12,
+      "predictive_variance": 1.1048622309666363e-05,
+      "joint_information_nats": 1.3757190855399366
+    },
+    {
+      "selected_indices": [
+        2,
+        4,
+        22
+      ],
+      "decision_risk": 2.55347621958256e-11,
+      "predictive_variance": 0.0016156937177959367,
+      "joint_information_nats": 1.1743303107153884
+    },
+    {
+      "selected_indices": [
+        2,
+        6,
+        8
+      ],
+      "decision_risk": 1.036888535872364e-10,
+      "predictive_variance": 0.001558164647034237,
+      "joint_information_nats": 1.2321037406264828
+    },
+    {
+      "selected_indices": [
+        2,
+        6,
+        10
+      ],
+      "decision_risk": 9.628002639854407e-12,
+      "predictive_variance": 0.0013080088797270358,
+      "joint_information_nats": 1.2447937770422919
+    },
+    {
+      "selected_indices": [
+        2,
+        6,
+        12
+      ],
+      "decision_risk": 9.463596572246649e-11,
+      "predictive_variance": 0.0008621309482962174,
+      "joint_information_nats": 1.2874457403565378
+    },
+    {
+      "selected_indices": [
+        2,
+        6,
+        14
+      ],
+      "decision_risk": 1.383883968651558e-10,
+      "predictive_variance": 0.0012430499768315705,
+      "joint_information_nats": 1.2366461045086137
+    },
+    {
+      "selected_indices": [
+        2,
+        6,
+        16
+      ],
+      "decision_risk": 9.495913216263772e-10,
+      "predictive_variance": 0.0003139898951106011,
+      "joint_information_nats": 1.353337776628377
+    },
+    {
+      "selected_indices": [
+        2,
+        6,
+        18
+      ],
+      "decision_risk": 7.748808259881176e-11,
+      "predictive_variance": 0.0014513261174070118,
+      "joint_information_nats": 1.2107503180755428
+    },
+    {
+      "selected_indices": [
+        2,
+        6,
+        20
+      ],
+      "decision_risk": 6.549519007284131e-12,
+      "predictive_variance": 9.64687345812697e-06,
+      "joint_information_nats": 1.3943298984515393
+    },
+    {
+      "selected_indices": [
+        2,
+        6,
+        22
+      ],
+      "decision_risk": 2.935932246888003e-11,
+      "predictive_variance": 0.001499717576176415,
+      "joint_information_nats": 1.2010154093495635
+    },
+    {
+      "selected_indices": [
+        2,
+        8,
+        10
+      ],
+      "decision_risk": 5.212869084630058e-12,
+      "predictive_variance": 0.001374756083265811,
+      "joint_information_nats": 1.2485122024399395
+    },
+    {
+      "selected_indices": [
+        2,
+        8,
+        12
+      ],
+      "decision_risk": 4.422492103287827e-11,
+      "predictive_variance": 0.0006968754458916149,
+      "joint_information_nats": 1.2995650531496263
+    },
+    {
+      "selected_indices": [
+        2,
+        8,
+        14
+      ],
+      "decision_risk": 8.162047021555132e-11,
+      "predictive_variance": 0.0012871133781373694,
+      "joint_information_nats": 1.2436883893171653
+    },
+    {
+      "selected_indices": [
+        2,
+        8,
+        16
+      ],
+      "decision_risk": 2.2621853319663887e-10,
+      "predictive_variance": 0.00018828220409606772,
+      "joint_information_nats": 1.3432099483283553
+    },
+    {
+      "selected_indices": [
+        2,
+        8,
+        18
+      ],
+      "decision_risk": 4.447288140511693e-11,
+      "predictive_variance": 0.0013789078099651223,
+      "joint_information_nats": 1.22420322174937
+    },
+    {
+      "selected_indices": [
+        2,
+        8,
+        20
+      ],
+      "decision_risk": 4.879155234214345e-12,
+      "predictive_variance": 3.7192072431949794e-06,
+      "joint_information_nats": 1.3778142185053115
+    },
+    {
+      "selected_indices": [
+        2,
+        8,
+        22
+      ],
+      "decision_risk": 1.9510213310205385e-11,
+      "predictive_variance": 0.0015642609373849202,
+      "joint_information_nats": 1.22578443703556
+    },
+    {
+      "selected_indices": [
+        2,
+        10,
+        12
+      ],
+      "decision_risk": 4.6551432214840544e-12,
+      "predictive_variance": 0.0007250876306425475,
+      "joint_information_nats": 1.3009352274058033
+    },
+    {
+      "selected_indices": [
+        2,
+        10,
+        14
+      ],
+      "decision_risk": 5.745548182617197e-12,
+      "predictive_variance": 0.0011426222123521218,
+      "joint_information_nats": 1.2483940696227835
+    },
+    {
+      "selected_indices": [
+        2,
+        10,
+        16
+      ],
+      "decision_risk": 2.6584790853350358e-11,
+      "predictive_variance": 0.00030184314074676276,
+      "joint_information_nats": 1.3427051082186179
+    },
+    {
+      "selected_indices": [
+        2,
+        10,
+        18
+      ],
+      "decision_risk": 2.735036590492895e-12,
+      "predictive_variance": 0.001319900395080956,
+      "joint_information_nats": 1.223490534341495
+    },
+    {
+      "selected_indices": [
+        2,
+        10,
+        20
+      ],
+      "decision_risk": 2.913757225221511e-13,
+      "predictive_variance": 4.844587243580086e-06,
+      "joint_information_nats": 1.3781921162857018
+    },
+    {
+      "selected_indices": [
+        2,
+        10,
+        22
+      ],
+      "decision_risk": 1.1693311239556757e-12,
+      "predictive_variance": 0.0013573496657743195,
+      "joint_information_nats": 1.2245182430126569
+    },
+    {
+      "selected_indices": [
+        2,
+        12,
+        14
+      ],
+      "decision_risk": 5.970331150543568e-11,
+      "predictive_variance": 0.0007108970905499068,
+      "joint_information_nats": 1.2963590057811556
+    },
+    {
+      "selected_indices": [
+        2,
+        12,
+        16
+      ],
+      "decision_risk": 3.063535649067704e-10,
+      "predictive_variance": 5.659119960810777e-05,
+      "joint_information_nats": 1.3720003351707066
+    },
+    {
+      "selected_indices": [
+        2,
+        12,
+        18
+      ],
+      "decision_risk": 3.3051167442112205e-11,
+      "predictive_variance": 0.000796828854661335,
+      "joint_information_nats": 1.2731568087508414
+    },
+    {
+      "selected_indices": [
+        2,
+        12,
+        20
+      ],
+      "decision_risk": 3.0276219305698823e-12,
+      "predictive_variance": 1.5172675580708339e-06,
+      "joint_information_nats": 1.3776033496089588
+    },
+    {
+      "selected_indices": [
+        2,
+        12,
+        22
+      ],
+      "decision_risk": 4.252004231181585e-11,
+      "predictive_variance": 0.0008977253330309316,
+      "joint_information_nats": 1.280649458388647
+    },
+    {
+      "selected_indices": [
+        2,
+        14,
+        16
+      ],
+      "decision_risk": 4.5401858993296293e-10,
+      "predictive_variance": 0.0002839060797966437,
+      "joint_information_nats": 1.3470655302932615
+    },
+    {
+      "selected_indices": [
+        2,
+        14,
+        18
+      ],
+      "decision_risk": 6.333465502929563e-11,
+      "predictive_variance": 0.001224552627547204,
+      "joint_information_nats": 1.218855963822396
+    },
+    {
+      "selected_indices": [
+        2,
+        14,
+        20
+      ],
+      "decision_risk": 3.949419305991582e-12,
+      "predictive_variance": 3.4203757942165325e-06,
+      "joint_information_nats": 1.3764071608149262
+    },
+    {
+      "selected_indices": [
+        2,
+        14,
+        22
+      ],
+      "decision_risk": 1.6846477371263662e-11,
+      "predictive_variance": 0.0011669118167573008,
+      "joint_information_nats": 1.2187988256176043
+    },
+    {
+      "selected_indices": [
+        2,
+        16,
+        18
+      ],
+      "decision_risk": 2.9816380492148994e-10,
+      "predictive_variance": 0.00028418792947264456,
+      "joint_information_nats": 1.3334580135421694
+    },
+    {
+      "selected_indices": [
+        2,
+        16,
+        20
+      ],
+      "decision_risk": 7.986120516921911e-12,
+      "predictive_variance": 9.103689727364905e-07,
+      "joint_information_nats": 1.3775664597944197
+    },
+    {
+      "selected_indices": [
+        2,
+        16,
+        22
+      ],
+      "decision_risk": 7.622929808576545e-11,
+      "predictive_variance": 0.00029902373367302857,
+      "joint_information_nats": 1.343045396900959
+    },
+    {
+      "selected_indices": [
+        2,
+        18,
+        20
+      ],
+      "decision_risk": 1.5528444307238673e-12,
+      "predictive_variance": 5.365522405782121e-06,
+      "joint_information_nats": 1.3761044107069826
+    },
+    {
+      "selected_indices": [
+        2,
+        18,
+        22
+      ],
+      "decision_risk": 1.2955208440781393e-11,
+      "predictive_variance": 0.001405078327193659,
+      "joint_information_nats": 1.1855332124220446
+    },
+    {
+      "selected_indices": [
+        2,
+        20,
+        22
+      ],
+      "decision_risk": 2.716920450640253e-12,
+      "predictive_variance": 1.1101748522837137e-05,
+      "joint_information_nats": 1.375768540817631
+    },
+    {
+      "selected_indices": [
+        4,
+        6,
+        8
+      ],
+      "decision_risk": 0.00043683763244752597,
+      "predictive_variance": 0.007542572240492618,
+      "joint_information_nats": 0.6642962603069001
+    },
+    {
+      "selected_indices": [
+        4,
+        6,
+        10
+      ],
+      "decision_risk": 5.875249562397329e-10,
+      "predictive_variance": 0.0014067512685753166,
+      "joint_information_nats": 1.2104420187722151
+    },
+    {
+      "selected_indices": [
+        4,
+        6,
+        12
+      ],
+      "decision_risk": 0.0013950385643144796,
+      "predictive_variance": 0.007084323181818658,
+      "joint_information_nats": 0.7257981667134352
+    },
+    {
+      "selected_indices": [
+        4,
+        6,
+        14
+      ],
+      "decision_risk": 0.00021389652216842437,
+      "predictive_variance": 0.004082930950994085,
+      "joint_information_nats": 0.8708171391364485
+    },
+    {
+      "selected_indices": [
+        4,
+        6,
+        16
+      ],
+      "decision_risk": 0.00042443045394642917,
+      "predictive_variance": 0.005452183473232121,
+      "joint_information_nats": 0.7924793186830044
+    },
+    {
+      "selected_indices": [
+        4,
+        6,
+        18
+      ],
+      "decision_risk": 0.0006329472638052067,
+      "predictive_variance": 0.007245809417520373,
+      "joint_information_nats": 0.6464594769310962
+    },
+    {
+      "selected_indices": [
+        4,
+        6,
+        20
+      ],
+      "decision_risk": 0.00043216635546196465,
+      "predictive_variance": 0.0050454886344663144,
+      "joint_information_nats": 0.838439018439904
+    },
+    {
+      "selected_indices": [
+        4,
+        6,
+        22
+      ],
+      "decision_risk": 0.0004273676412915759,
+      "predictive_variance": 0.007469821534248904,
+      "joint_information_nats": 0.6121990690003112
+    },
+    {
+      "selected_indices": [
+        4,
+        8,
+        10
+      ],
+      "decision_risk": 5.82867312927269e-10,
+      "predictive_variance": 0.001508109844258326,
+      "joint_information_nats": 1.2079422722678108
+    },
+    {
+      "selected_indices": [
+        4,
+        8,
+        12
+      ],
+      "decision_risk": 0.09469728360241067,
+      "predictive_variance": 0.020907827177572648,
+      "joint_information_nats": 0.1767416072246246
+    },
+    {
+      "selected_indices": [
+        4,
+        8,
+        14
+      ],
+      "decision_risk": 0.003803857784902074,
+      "predictive_variance": 0.006849122304695325,
+      "joint_information_nats": 0.6860319481298627
+    },
+    {
+      "selected_indices": [
+        4,
+        8,
+        16
+      ],
+      "decision_risk": 0.09460193314564652,
+      "predictive_variance": 0.01954757333335241,
+      "joint_information_nats": 0.22856216861656434
+    },
+    {
+      "selected_indices": [
+        4,
+        8,
+        18
+      ],
+      "decision_risk": 0.10063033482875716,
+      "predictive_variance": 0.02279934791000897,
+      "joint_information_nats": 0.13095012729021674
+    },
+    {
+      "selected_indices": [
+        4,
+        8,
+        20
+      ],
+      "decision_risk": 0.09348354422795697,
+      "predictive_variance": 0.0188726704363876,
+      "joint_information_nats": 0.2759174551210716
+    },
+    {
+      "selected_indices": [
+        4,
+        8,
+        22
+      ],
+      "decision_risk": 0.09440507887305838,
+      "predictive_variance": 0.024175525115247808,
+      "joint_information_nats": 0.0757017833693637
+    },
+    {
+      "selected_indices": [
+        4,
+        10,
+        12
+      ],
+      "decision_risk": 6.149880186003974e-10,
+      "predictive_variance": 0.0008830359781326293,
+      "joint_information_nats": 1.258337110312565
+    },
+    {
+      "selected_indices": [
+        4,
+        10,
+        14
+      ],
+      "decision_risk": 5.927931030280367e-10,
+      "predictive_variance": 0.0012836914605367452,
+      "joint_information_nats": 1.2073056929079449
+    },
+    {
+      "selected_indices": [
+        4,
+        10,
+        16
+      ],
+      "decision_risk": 2.653125344437745e-10,
+      "predictive_variance": 0.0004716997749605044,
+      "joint_information_nats": 1.3006129521797638
+    },
+    {
+      "selected_indices": [
+        4,
+        10,
+        18
+      ],
+      "decision_risk": 5.032483273004075e-10,
+      "predictive_variance": 0.0014635267850623486,
+      "joint_information_nats": 1.181015894235149
+    },
+    {
+      "selected_indices": [
+        4,
+        10,
+        20
+      ],
+      "decision_risk": 4.2086030914324925e-10,
+      "predictive_variance": 0.00018388853696951616,
+      "joint_information_nats": 1.3360004502035232
+    },
+    {
+      "selected_indices": [
+        4,
+        10,
+        22
+      ],
+      "decision_risk": 3.9207481658834235e-10,
+      "predictive_variance": 0.0014887482912198703,
+      "joint_information_nats": 1.1785583965640147
+    },
+    {
+      "selected_indices": [
+        4,
+        12,
+        14
+      ],
+      "decision_risk": 0.0049989091160512365,
+      "predictive_variance": 0.006678511761523649,
+      "joint_information_nats": 0.7417965073886383
+    },
+    {
+      "selected_indices": [
+        4,
+        12,
+        16
+      ],
+      "decision_risk": 0.09383222733645702,
+      "predictive_variance": 0.0191465198753457,
+      "joint_information_nats": 0.2574423072907443
+    },
+    {
+      "selected_indices": [
+        4,
+        12,
+        18
+      ],
+      "decision_risk": 0.10005188164982093,
+      "predictive_variance": 0.020871761624757356,
+      "joint_information_nats": 0.1813414306563863
+    },
+    {
+      "selected_indices": [
+        4,
+        12,
+        20
+      ],
+      "decision_risk": 0.09377500547244456,
+      "predictive_variance": 0.018870365720909995,
+      "joint_information_nats": 0.26861405472633293
+    },
+    {
+      "selected_indices": [
+        4,
+        12,
+        22
+      ],
+      "decision_risk": 0.0952010709738448,
+      "predictive_variance": 0.021583819858933248,
+      "joint_information_nats": 0.14785205757595601
+    },
+    {
+      "selected_indices": [
+        4,
+        14,
+        16
+      ],
+      "decision_risk": 0.0036553584689830365,
+      "predictive_variance": 0.005016869836822702,
+      "joint_information_nats": 0.7907768160596641
+    },
+    {
+      "selected_indices": [
+        4,
+        14,
+        18
+      ],
+      "decision_risk": 0.0032254987619395425,
+      "predictive_variance": 0.006522763154968312,
+      "joint_information_nats": 0.6654266597171742
+    },
+    {
+      "selected_indices": [
+        4,
+        14,
+        20
+      ],
+      "decision_risk": 0.0036501132830622663,
+      "predictive_variance": 0.004699154596628431,
+      "joint_information_nats": 0.8229080513674667
+    },
+    {
+      "selected_indices": [
+        4,
+        14,
+        22
+      ],
+      "decision_risk": 0.0038381421409430833,
+      "predictive_variance": 0.0064146404612721985,
+      "joint_information_nats": 0.6464150257465036
+    },
+    {
+      "selected_indices": [
+        4,
+        16,
+        18
+      ],
+      "decision_risk": 0.10194829022916246,
+      "predictive_variance": 0.019356739652054415,
+      "joint_information_nats": 0.2609109289121551
+    },
+    {
+      "selected_indices": [
+        4,
+        16,
+        20
+      ],
+      "decision_risk": 0.09379511634325975,
+      "predictive_variance": 0.018868529458492052,
+      "joint_information_nats": 0.26870125239359655
+    },
+    {
+      "selected_indices": [
+        4,
+        16,
+        22
+      ],
+      "decision_risk": 0.09451779239822584,
+      "predictive_variance": 0.019654988555135068,
+      "joint_information_nats": 0.23149423302998326
+    },
+    {
+      "selected_indices": [
+        4,
+        18,
+        20
+      ],
+      "decision_risk": 0.10125377059341825,
+      "predictive_variance": 0.018742116433420303,
+      "joint_information_nats": 0.30618203511482084
+    },
+    {
+      "selected_indices": [
+        4,
+        18,
+        22
+      ],
+      "decision_risk": 0.10187614001524917,
+      "predictive_variance": 0.023052170778546793,
+      "joint_information_nats": 0.06542581047110761
+    },
+    {
+      "selected_indices": [
+        4,
+        20,
+        22
+      ],
+      "decision_risk": 0.09360645567707623,
+      "predictive_variance": 0.018948197156823395,
+      "joint_information_nats": 0.27636109316055696
+    },
+    {
+      "selected_indices": [
+        6,
+        8,
+        10
+      ],
+      "decision_risk": 5.748170586461732e-10,
+      "predictive_variance": 0.0014177580894203204,
+      "joint_information_nats": 1.2374863144740145
+    },
+    {
+      "selected_indices": [
+        6,
+        8,
+        12
+      ],
+      "decision_risk": 0.00042420647685045387,
+      "predictive_variance": 0.006061229324999858,
+      "joint_information_nats": 0.7655273414994319
+    },
+    {
+      "selected_indices": [
+        6,
+        8,
+        14
+      ],
+      "decision_risk": 4.965568907701258e-06,
+      "predictive_variance": 0.004132438438768224,
+      "joint_information_nats": 0.9151703461439058
+    },
+    {
+      "selected_indices": [
+        6,
+        8,
+        16
+      ],
+      "decision_risk": 0.0004379609895216949,
+      "predictive_variance": 0.005268898517459573,
+      "joint_information_nats": 0.8037150708454452
+    },
+    {
+      "selected_indices": [
+        6,
+        8,
+        18
+      ],
+      "decision_risk": 0.0006395417111013979,
+      "predictive_variance": 0.0072735789592519185,
+      "joint_information_nats": 0.6959000294530879
+    },
+    {
+      "selected_indices": [
+        6,
+        8,
+        20
+      ],
+      "decision_risk": 0.0004463981858266916,
+      "predictive_variance": 0.005145298525116098,
+      "joint_information_nats": 0.8418202136020925
+    },
+    {
+      "selected_indices": [
+        6,
+        8,
+        22
+      ],
+      "decision_risk": 0.0004316752127478526,
+      "predictive_variance": 0.007522511506966775,
+      "joint_information_nats": 0.6706957355493752
+    },
+    {
+      "selected_indices": [
+        6,
+        10,
+        12
+      ],
+      "decision_risk": 5.961962794620034e-10,
+      "predictive_variance": 0.0008255092846848157,
+      "joint_information_nats": 1.2901826921230404
+    },
+    {
+      "selected_indices": [
+        6,
+        10,
+        14
+      ],
+      "decision_risk": 5.874151861224415e-10,
+      "predictive_variance": 0.0012316336402218512,
+      "joint_information_nats": 1.2368027986706533
+    },
+    {
+      "selected_indices": [
+        6,
+        10,
+        16
+      ],
+      "decision_risk": 2.8470545373096283e-10,
+      "predictive_variance": 0.00040145982168892345,
+      "joint_information_nats": 1.333643173613749
+    },
+    {
+      "selected_indices": [
+        6,
+        10,
+        18
+      ],
+      "decision_risk": 4.779053188447481e-10,
+      "predictive_variance": 0.0013597514201292857,
+      "joint_information_nats": 1.2155591758837163
+    },
+    {
+      "selected_indices": [
+        6,
+        10,
+        20
+      ],
+      "decision_risk": 3.6785429066532247e-10,
+      "predictive_variance": 0.00012153002894267195,
+      "joint_information_nats": 1.3694260743206266
+    },
+    {
+      "selected_indices": [
+        6,
+        10,
+        22
+      ],
+      "decision_risk": 3.816964349356541e-10,
+      "predictive_variance": 0.0013512188344915756,
+      "joint_information_nats": 1.2135804821103513
+    },
+    {
+      "selected_indices": [
+        6,
+        12,
+        14
+      ],
+      "decision_risk": 0.0011224748874142563,
+      "predictive_variance": 0.004266302552588396,
+      "joint_information_nats": 0.9691043233052055
+    },
+    {
+      "selected_indices": [
+        6,
+        12,
+        16
+      ],
+      "decision_risk": 0.0004044437351483125,
+      "predictive_variance": 0.005117659182612429,
+      "joint_information_nats": 0.829446608519468
+    },
+    {
+      "selected_indices": [
+        6,
+        12,
+        18
+      ],
+      "decision_risk": 0.0006099923453930456,
+      "predictive_variance": 0.006160766964718703,
+      "joint_information_nats": 0.7519595237620432
+    },
+    {
+      "selected_indices": [
+        6,
+        12,
+        20
+      ],
+      "decision_risk": 0.00041156697345720106,
+      "predictive_variance": 0.004986586668640779,
+      "joint_information_nats": 0.8406144586437778
+    },
+    {
+      "selected_indices": [
+        6,
+        12,
+        22
+      ],
+      "decision_risk": 0.00044005935772401965,
+      "predictive_variance": 0.006483567218324939,
+      "joint_information_nats": 0.7338466915805997
+    },
+    {
+      "selected_indices": [
+        6,
+        14,
+        16
+      ],
+      "decision_risk": 1.2786043249741971e-07,
+      "predictive_variance": 0.0028347727599206075,
+      "joint_information_nats": 1.008095596169043
+    },
+    {
+      "selected_indices": [
+        6,
+        14,
+        18
+      ],
+      "decision_risk": 2.705936496770918e-07,
+      "predictive_variance": 0.0038075701324691005,
+      "joint_information_nats": 0.8888988830938113
+    },
+    {
+      "selected_indices": [
+        6,
+        14,
+        20
+      ],
+      "decision_risk": 9.250099385603403e-08,
+      "predictive_variance": 0.0024139565658905316,
+      "joint_information_nats": 1.047943085877378
+    },
+    {
+      "selected_indices": [
+        6,
+        14,
+        22
+      ],
+      "decision_risk": 6.520571537769134e-06,
+      "predictive_variance": 0.00378638442500199,
+      "joint_information_nats": 0.8740119719916781
+    },
+    {
+      "selected_indices": [
+        6,
+        16,
+        18
+      ],
+      "decision_risk": 0.000638490276904762,
+      "predictive_variance": 0.005320803510272674,
+      "joint_information_nats": 0.8074616870392994
+    },
+    {
+      "selected_indices": [
+        6,
+        16,
+        20
+      ],
+      "decision_risk": 0.0004383500854051915,
+      "predictive_variance": 0.0049904617089852644,
+      "joint_information_nats": 0.8400114490576338
+    },
+    {
+      "selected_indices": [
+        6,
+        16,
+        22
+      ],
+      "decision_risk": 0.0004241995219751044,
+      "predictive_variance": 0.005409520356850873,
+      "joint_information_nats": 0.8051893634515878
+    },
+    {
+      "selected_indices": [
+        6,
+        18,
+        20
+      ],
+      "decision_risk": 0.0006509162102243579,
+      "predictive_variance": 0.0049758565818858605,
+      "joint_information_nats": 0.8559828249773621
+    },
+    {
+      "selected_indices": [
+        6,
+        18,
+        22
+      ],
+      "decision_risk": 0.0006297185293373044,
+      "predictive_variance": 0.007139106720578827,
+      "joint_information_nats": 0.6495194176454616
+    },
+    {
+      "selected_indices": [
+        6,
+        20,
+        22
+      ],
+      "decision_risk": 0.0004319835129343984,
+      "predictive_variance": 0.005020897103524503,
+      "joint_information_nats": 0.8442715233925326
+    },
+    {
+      "selected_indices": [
+        8,
+        10,
+        12
+      ],
+      "decision_risk": 5.448743007208724e-10,
+      "predictive_variance": 0.000785250568075482,
+      "joint_information_nats": 1.286491760037059
+    },
+    {
+      "selected_indices": [
+        8,
+        10,
+        14
+      ],
+      "decision_risk": 6.108028408254733e-10,
+      "predictive_variance": 0.0012697322017296655,
+      "joint_information_nats": 1.2326367204071456
+    },
+    {
+      "selected_indices": [
+        8,
+        10,
+        16
+      ],
+      "decision_risk": 2.881682487837799e-10,
+      "predictive_variance": 0.0003499982919054378,
+      "joint_information_nats": 1.3130656720511
+    },
+    {
+      "selected_indices": [
+        8,
+        10,
+        18
+      ],
+      "decision_risk": 4.603663187882994e-10,
+      "predictive_variance": 0.0013578126757765635,
+      "joint_information_nats": 1.214456525439205
+    },
+    {
+      "selected_indices": [
+        8,
+        10,
+        20
+      ],
+      "decision_risk": 3.167702065315521e-10,
+      "predictive_variance": 0.00018212031797611224,
+      "joint_information_nats": 1.3381015980027389
+    },
+    {
+      "selected_indices": [
+        8,
+        10,
+        22
+      ],
+      "decision_risk": 2.7762281398325234e-10,
+      "predictive_variance": 0.0014816213755021014,
+      "joint_information_nats": 1.219108987831062
+    },
+    {
+      "selected_indices": [
+        8,
+        12,
+        14
+      ],
+      "decision_risk": 0.0036870377819858686,
+      "predictive_variance": 0.005827729463409443,
+      "joint_information_nats": 0.7664963636956701
+    },
+    {
+      "selected_indices": [
+        8,
+        12,
+        16
+      ],
+      "decision_risk": 0.09396027813641172,
+      "predictive_variance": 0.01917157888825448,
+      "joint_information_nats": 0.25727150546958594
+    },
+    {
+      "selected_indices": [
+        8,
+        12,
+        18
+      ],
+      "decision_risk": 0.09969906495355027,
+      "predictive_variance": 0.020372378646465166,
+      "joint_information_nats": 0.2198229144417958
+    },
+    {
+      "selected_indices": [
+        8,
+        12,
+        20
+      ],
+      "decision_risk": 0.09378161788687375,
+      "predictive_variance": 0.01887924139416565,
+      "joint_information_nats": 0.27081519175508534
+    },
+    {
+      "selected_indices": [
+        8,
+        12,
+        22
+      ],
+      "decision_risk": 0.09467325410957349,
+      "predictive_variance": 0.0208533939635401,
+      "joint_information_nats": 0.18457580401609885
+    },
+    {
+      "selected_indices": [
+        8,
+        14,
+        16
+      ],
+      "decision_risk": 0.003658991988288998,
+      "predictive_variance": 0.004949054724342375,
+      "joint_information_nats": 0.799373110577151
+    },
+    {
+      "selected_indices": [
+        8,
+        14,
+        18
+      ],
+      "decision_risk": 0.0032235320826808586,
+      "predictive_variance": 0.0065605884109393164,
+      "joint_information_nats": 0.7070779677032465
+    },
+    {
+      "selected_indices": [
+        8,
+        14,
+        20
+      ],
+      "decision_risk": 0.003653748283282819,
+      "predictive_variance": 0.004817249610927343,
+      "joint_information_nats": 0.8271283725719372
+    },
+    {
+      "selected_indices": [
+        8,
+        14,
+        22
+      ],
+      "decision_risk": 0.0038284285080189824,
+      "predictive_variance": 0.006701656291912357,
+      "joint_information_nats": 0.694085891354068
+    },
+    {
+      "selected_indices": [
+        8,
+        16,
+        18
+      ],
+      "decision_risk": 0.1018581796490509,
+      "predictive_variance": 0.01931469252351667,
+      "joint_information_nats": 0.26473962026683917
+    },
+    {
+      "selected_indices": [
+        8,
+        16,
+        20
+      ],
+      "decision_risk": 0.09380880926002054,
+      "predictive_variance": 0.018869411494681264,
+      "joint_information_nats": 0.2711308032961168
+    },
+    {
+      "selected_indices": [
+        8,
+        16,
+        22
+      ],
+      "decision_risk": 0.09462049624343415,
+      "predictive_variance": 0.019534365468236215,
+      "joint_information_nats": 0.23674702988178906
+    },
+    {
+      "selected_indices": [
+        8,
+        18,
+        20
+      ],
+      "decision_risk": 0.10115553586177872,
+      "predictive_variance": 0.018708727874738935,
+      "joint_information_nats": 0.3126685640332658
+    },
+    {
+      "selected_indices": [
+        8,
+        18,
+        22
+      ],
+      "decision_risk": 0.10094309569525536,
+      "predictive_variance": 0.022779662598679636,
+      "joint_information_nats": 0.1432193880530518
+    },
+    {
+      "selected_indices": [
+        8,
+        20,
+        22
+      ],
+      "decision_risk": 0.09350636702144666,
+      "predictive_variance": 0.018873257362370516,
+      "joint_information_nats": 0.28408197273631336
+    },
+    {
+      "selected_indices": [
+        10,
+        12,
+        14
+      ],
+      "decision_risk": 5.478871142513933e-10,
+      "predictive_variance": 0.0007604050857216679,
+      "joint_information_nats": 1.2792166574830772
+    },
+    {
+      "selected_indices": [
+        10,
+        12,
+        16
+      ],
+      "decision_risk": 1.577827629329788e-10,
+      "predictive_variance": 0.00023129654957676965,
+      "joint_information_nats": 1.3337259606305683
+    },
+    {
+      "selected_indices": [
+        10,
+        12,
+        18
+      ],
+      "decision_risk": 5.169181719378615e-10,
+      "predictive_variance": 0.0008210382519075954,
+      "joint_information_nats": 1.261982832800947
+    },
+    {
+      "selected_indices": [
+        10,
+        12,
+        20
+      ],
+      "decision_risk": 2.3842901576455594e-10,
+      "predictive_variance": 0.00017981356972423772,
+      "joint_information_nats": 1.3374769991970252
+    },
+    {
+      "selected_indices": [
+        10,
+        12,
+        22
+      ],
+      "decision_risk": 1.0932188816670267e-09,
+      "predictive_variance": 0.0009401778926756184,
+      "joint_information_nats": 1.2714676248882475
+    },
+    {
+      "selected_indices": [
+        10,
+        14,
+        16
+      ],
+      "decision_risk": 2.9596875933152797e-10,
+      "predictive_variance": 0.00039132288235394706,
+      "joint_information_nats": 1.3120889318540758
+    },
+    {
+      "selected_indices": [
+        10,
+        14,
+        18
+      ],
+      "decision_risk": 5.29209549968102e-10,
+      "predictive_variance": 0.001222015823347433,
+      "joint_information_nats": 1.2132896231903998
+    },
+    {
+      "selected_indices": [
+        10,
+        14,
+        20
+      ],
+      "decision_risk": 3.257610409026505e-10,
+      "predictive_variance": 0.0001449866282820136,
+      "joint_information_nats": 1.339957511534743
+    },
+    {
+      "selected_indices": [
+        10,
+        14,
+        22
+      ],
+      "decision_risk": 2.654399447302852e-10,
+      "predictive_variance": 0.0012043863090268362,
+      "joint_information_nats": 1.2098823216112313
+    },
+    {
+      "selected_indices": [
+        10,
+        16,
+        18
+      ],
+      "decision_risk": 2.7653097543958603e-10,
+      "predictive_variance": 0.0004487058516016943,
+      "joint_information_nats": 1.301958631553275
+    },
+    {
+      "selected_indices": [
+        10,
+        16,
+        20
+      ],
+      "decision_risk": 1.6462831002863337e-10,
+      "predictive_variance": 0.00017987511670670365,
+      "joint_information_nats": 1.3371786614090122
+    },
+    {
+      "selected_indices": [
+        10,
+        16,
+        22
+      ],
+      "decision_risk": 2.78025743566344e-10,
+      "predictive_variance": 0.000464784759594594,
+      "joint_information_nats": 1.3097788813122722
+    },
+    {
+      "selected_indices": [
+        10,
+        18,
+        20
+      ],
+      "decision_risk": 1.4995001175105727e-10,
+      "predictive_variance": 0.00017794733150299551,
+      "joint_information_nats": 1.336900478187176
+    },
+    {
+      "selected_indices": [
+        10,
+        18,
+        22
+      ],
+      "decision_risk": 1.997293048341037e-10,
+      "predictive_variance": 0.001390459927893426,
+      "joint_information_nats": 1.1829953307704733
+    },
+    {
+      "selected_indices": [
+        10,
+        20,
+        22
+      ],
+      "decision_risk": 7.991283139637489e-11,
+      "predictive_variance": 0.00018401076393711755,
+      "joint_information_nats": 1.3360652409298912
+    },
+    {
+      "selected_indices": [
+        12,
+        14,
+        16
+      ],
+      "decision_risk": 0.0036618806941717905,
+      "predictive_variance": 0.004770288458255719,
+      "joint_information_nats": 0.8191685693056914
+    },
+    {
+      "selected_indices": [
+        12,
+        14,
+        18
+      ],
+      "decision_risk": 0.0032233502460136394,
+      "predictive_variance": 0.005739506771057574,
+      "joint_information_nats": 0.7551676951828454
+    },
+    {
+      "selected_indices": [
+        12,
+        14,
+        20
+      ],
+      "decision_risk": 0.00365659225956248,
+      "predictive_variance": 0.004608683289499604,
+      "joint_information_nats": 0.8245242601850584
+    },
+    {
+      "selected_indices": [
+        12,
+        14,
+        22
+      ],
+      "decision_risk": 0.0038883547428651415,
+      "predictive_variance": 0.006023683698457478,
+      "joint_information_nats": 0.7478052922933726
+    },
+    {
+      "selected_indices": [
+        12,
+        16,
+        18
+      ],
+      "decision_risk": 0.10135961758568234,
+      "predictive_variance": 0.018910927245184398,
+      "joint_information_nats": 0.29612271472218454
+    },
+    {
+      "selected_indices": [
+        12,
+        16,
+        20
+      ],
+      "decision_risk": 0.0937769395449502,
+      "predictive_variance": 0.018866684865155154,
+      "joint_information_nats": 0.26978664067154223
+    },
+    {
+      "selected_indices": [
+        12,
+        16,
+        22
+      ],
+      "decision_risk": 0.09384714181351536,
+      "predictive_variance": 0.019144503276495785,
+      "joint_information_nats": 0.2645924317286144
+    },
+    {
+      "selected_indices": [
+        12,
+        18,
+        20
+      ],
+      "decision_risk": 0.10132573201504969,
+      "predictive_variance": 0.01867085669242975,
+      "joint_information_nats": 0.30681690107192017
+    },
+    {
+      "selected_indices": [
+        12,
+        18,
+        22
+      ],
+      "decision_risk": 0.10061831266590512,
+      "predictive_variance": 0.020929734825249145,
+      "joint_information_nats": 0.18887922474345886
+    },
+    {
+      "selected_indices": [
+        12,
+        20,
+        22
+      ],
+      "decision_risk": 0.09377990724933502,
+      "predictive_variance": 0.018867441428760876,
+      "joint_information_nats": 0.27595338775074074
+    },
+    {
+      "selected_indices": [
+        14,
+        16,
+        18
+      ],
+      "decision_risk": 0.0032234544766618516,
+      "predictive_variance": 0.0050067730268392105,
+      "joint_information_nats": 0.8036338497214167
+    },
+    {
+      "selected_indices": [
+        14,
+        16,
+        20
+      ],
+      "decision_risk": 0.0036488660315895905,
+      "predictive_variance": 0.004607865787316258,
+      "joint_information_nats": 0.8241560407223141
+    },
+    {
+      "selected_indices": [
+        14,
+        16,
+        22
+      ],
+      "decision_risk": 0.003827319694848265,
+      "predictive_variance": 0.005069967292333237,
+      "joint_information_nats": 0.7976127794749202
+    },
+    {
+      "selected_indices": [
+        14,
+        18,
+        20
+      ],
+      "decision_risk": 0.003226388814663195,
+      "predictive_variance": 0.004708214224259063,
+      "joint_information_nats": 0.8361216384784516
+    },
+    {
+      "selected_indices": [
+        14,
+        18,
+        22
+      ],
+      "decision_risk": 0.0032064870892518442,
+      "predictive_variance": 0.006407710245273672,
+      "joint_information_nats": 0.6673686859577487
+    },
+    {
+      "selected_indices": [
+        14,
+        20,
+        22
+      ],
+      "decision_risk": 0.0038285866808441555,
+      "predictive_variance": 0.004656855952816201,
+      "joint_information_nats": 0.82524799288517
+    },
+    {
+      "selected_indices": [
+        16,
+        18,
+        20
+      ],
+      "decision_risk": 0.10133359968196448,
+      "predictive_variance": 0.018670305309049416,
+      "joint_information_nats": 0.3067103317683842
+    },
+    {
+      "selected_indices": [
+        16,
+        18,
+        22
+      ],
+      "decision_risk": 0.10201408001156889,
+      "predictive_variance": 0.01931272575054572,
+      "joint_information_nats": 0.2717094235861554
+    },
+    {
+      "selected_indices": [
+        16,
+        20,
+        22
+      ],
+      "decision_risk": 0.0937998465719771,
+      "predictive_variance": 0.01886561194433979,
+      "joint_information_nats": 0.2766349902733914
+    },
+    {
+      "selected_indices": [
+        18,
+        20,
+        22
+      ],
+      "decision_risk": 0.10142573486880524,
+      "predictive_variance": 0.018736029823095773,
+      "joint_information_nats": 0.313747241449539
+    }
+  ],
+  "greedy_trace": [
+    {
+      "depth": 1,
+      "selected_index": 2,
+      "metrics": {
+        "decision_risk": 1.0647311020813425e-10,
+        "predictive_variance": 0.001699445887073837,
+        "joint_information_nats": 1.171556111889975
+      },
+      "candidate_scores": [
+        {
+          "index": 0,
+          "criterion": 0.09552236076511003
+        },
+        {
+          "index": 2,
+          "criterion": 1.0647311020813425e-10
+        },
+        {
+          "index": 4,
+          "criterion": 0.09552265236312071
+        },
+        {
+          "index": 6,
+          "criterion": 0.0006233958251241199
+        },
+        {
+          "index": 8,
+          "criterion": 0.09440038594862599
+        },
+        {
+          "index": 10,
+          "criterion": 6.040953667985627e-10
+        },
+        {
+          "index": 12,
+          "criterion": 0.09518835214559147
+        },
+        {
+          "index": 14,
+          "criterion": 0.004309552983734125
+        },
+        {
+          "index": 16,
+          "criterion": 0.09450648504718484
+        },
+        {
+          "index": 18,
+          "criterion": 0.10154272721052263
+        },
+        {
+          "index": 20,
+          "criterion": 0.09358884464535927
+        },
+        {
+          "index": 22,
+          "criterion": 0.09569237482728107
+        }
+      ]
+    },
+    {
+      "depth": 2,
+      "selected_index": 20,
+      "metrics": {
+        "decision_risk": 4.01179018365339e-12,
+        "predictive_variance": 1.1048610011841731e-05,
+        "joint_information_nats": 1.3757190767712273
+      },
+      "candidate_scores": [
+        {
+          "index": 0,
+          "criterion": 1.0648631175152455e-10
+        },
+        {
+          "index": 4,
+          "criterion": 1.0647324642640186e-10
+        },
+        {
+          "index": 6,
+          "criterion": 1.5871906294614065e-10
+        },
+        {
+          "index": 8,
+          "criterion": 8.157974463450652e-11
+        },
+        {
+          "index": 10,
+          "criterion": 6.602122268538626e-12
+        },
+        {
+          "index": 12,
+          "criterion": 6.632364570230441e-11
+        },
+        {
+          "index": 14,
+          "criterion": 9.897994485293359e-11
+        },
+        {
+          "index": 16,
+          "criterion": 5.534828236960989e-10
+        },
+        {
+          "index": 18,
+          "criterion": 5.59102927758564e-11
+        },
+        {
+          "index": 20,
+          "criterion": 4.01179018365339e-12
+        },
+        {
+          "index": 22,
+          "criterion": 2.553475116268675e-11
+        }
+      ]
+    },
+    {
+      "depth": 3,
+      "selected_index": 10,
+      "metrics": {
+        "decision_risk": 2.9137658988388946e-13,
+        "predictive_variance": 4.844587243583392e-06,
+        "joint_information_nats": 1.3781921162857018
+      },
+      "candidate_scores": [
+        {
+          "index": 0,
+          "criterion": 4.013772366749528e-12
+        },
+        {
+          "index": 4,
+          "criterion": 4.011792597932504e-12
+        },
+        {
+          "index": 6,
+          "criterion": 6.549519007284131e-12
+        },
+        {
+          "index": 8,
+          "criterion": 4.879155234214344e-12
+        },
+        {
+          "index": 10,
+          "criterion": 2.9137658988388946e-13
+        },
+        {
+          "index": 12,
+          "criterion": 3.027621930569882e-12
+        },
+        {
+          "index": 14,
+          "criterion": 3.949419305991582e-12
+        },
+        {
+          "index": 16,
+          "criterion": 7.986120516921911e-12
+        },
+        {
+          "index": 18,
+          "criterion": 1.5528452980856057e-12
+        },
+        {
+          "index": 22,
+          "criterion": 2.716920450640253e-12
+        }
+      ]
+    }
+  ]
+}

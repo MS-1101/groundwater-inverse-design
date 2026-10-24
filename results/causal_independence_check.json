@@ -1,0 +1,10 @@
+{
+  "source3_unobserved_at_day180": true,
+  "maximum_marginal_change": 3.3306690738754696e-16,
+  "support_count": 1125,
+  "tested_development_seeds": [
+    1101,
+    1102,
+    1103
+  ]
+}

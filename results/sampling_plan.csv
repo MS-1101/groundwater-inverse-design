@@ -1,0 +1,5 @@
+﻿case_seed,construction_order,well,x_m,y_m,sampling_day,initial_predictive_mean_mg_L,initial_predictive_sd_mg_L,objective,status
+3001,1,W03,750.0,1350.0,365,1.565907296384535,0.8852269578951215,Expected batch decision loss; all four wells sampled together,Research candidate; continuous-truth calibration requires reassessment
+3001,2,W13,350.0,750.0,365,0.18065067089581377,0.04722655881801561,Expected batch decision loss; all four wells sampled together,Research candidate; continuous-truth calibration requires reassessment
+3001,3,W18,550.0,550.0,365,0.5002464441506254,0.08698987160997969,Expected batch decision loss; all four wells sampled together,Research candidate; continuous-truth calibration requires reassessment
+3001,4,W17,350.0,550.0,365,0.28592723033204415,0.06599577722299596,Expected batch decision loss; all four wells sampled together,Research candidate; continuous-truth calibration requires reassessment

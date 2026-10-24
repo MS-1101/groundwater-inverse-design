@@ -1,0 +1,1405 @@
+{
+  "seed": 3005,
+  "truth_index": 188,
+  "initial_data": [
+    2.8593678385773207,
+    0.43005092075263374,
+    0.02234939632714894,
+    156.99486062931066,
+    118.36062128423255
+  ],
+  "before": {
+    "future_mean_mg_L": 1.4139959432333138,
+    "future_sd_mg_L": 0.39402951757918003,
+    "future_q025_mg_L": 0.9867893045224498,
+    "future_q975_mg_L": 1.9695172696286347,
+    "exceedance_probability": 0.9999998902406386,
+    "action_strengthen_monitoring": true,
+    "bayes_risk": 1.0975936137747055e-07,
+    "effective_support_size": 5.039123506287702
+  },
+  "rows": [
+    {
+      "case_seed": 3005,
+      "method": "coverage",
+      "selected_indices": [
+        20,
+        23,
+        4,
+        7
+      ],
+      "selected_wells": [
+        "W21",
+        "W24",
+        "W05",
+        "W08"
+      ],
+      "before_risk": 1.0975936137747055e-07,
+      "before_effective_support": 5.039123506287702,
+      "selection_seconds": 0.0,
+      "decision_risk": 9.997532721798294e-08,
+      "predictive_variance": 0.04506402650327754,
+      "joint_information_nats": 0.4537003470772022,
+      "risk_standard_error": 3.018060741185322e-08,
+      "predictive_rmse_mg_L": 0.21592081504297383,
+      "realized_loss_mean": 0.0,
+      "false_negative_count": 0,
+      "false_positive_count": 0,
+      "true_exceedance_count": 4096,
+      "draws": 4096,
+      "posterior_effective_support_mean": 3.25296988474423,
+      "illustrative_after": {
+        "future_mean_mg_L": 1.8476643419051448,
+        "future_sd_mg_L": 0.24808395307651065,
+        "future_q025_mg_L": 1.3346136118641403,
+        "future_q975_mg_L": 1.9695172696286347,
+        "exceedance_probability": 0.9999993674262282,
+        "action_strengthen_monitoring": true,
+        "bayes_risk": 6.325737718082536e-07,
+        "effective_support_size": 2.737321035042732
+      }
+    },
+    {
+      "case_seed": 3005,
+      "method": "parameter_information",
+      "selected_indices": [
+        2,
+        9,
+        6,
+        7
+      ],
+      "selected_wells": [
+        "W03",
+        "W10",
+        "W07",
+        "W08"
+      ],
+      "before_risk": 1.0975936137747055e-07,
+      "before_effective_support": 5.039123506287702,
+      "selection_seconds": 0.5828467910178006,
+      "decision_risk": 4.819801460828783e-09,
+      "predictive_variance": 4.877537246877276e-06,
+      "joint_information_nats": 1.2386118160089783,
+      "risk_standard_error": 1.7242980654514701e-09,
+      "predictive_rmse_mg_L": 0.0021935603272635234,
+      "realized_loss_mean": 0.0,
+      "false_negative_count": 0,
+      "false_positive_count": 0,
+      "true_exceedance_count": 4096,
+      "draws": 4096,
+      "posterior_effective_support_mean": 1.727962328023946,
+      "illustrative_after": {
+        "future_mean_mg_L": 1.9643244501608672,
+        "future_sd_mg_L": 0.00384499888530023,
+        "future_q025_mg_L": 1.9588271117408427,
+        "future_q975_mg_L": 1.9695172696286347,
+        "exceedance_probability": 1.0,
+        "action_strengthen_monitoring": true,
+        "bayes_risk": 0.0,
+        "effective_support_size": 2.0574356169762438
+      }
+    },
+    {
+      "case_seed": 3005,
+      "method": "prediction_variance",
+      "selected_indices": [
+        2,
+        9,
+        6,
+        10
+      ],
+      "selected_wells": [
+        "W03",
+        "W10",
+        "W07",
+        "W11"
+      ],
+      "before_risk": 1.0975936137747055e-07,
+      "before_effective_support": 5.039123506287702,
+      "selection_seconds": 0.5865020002238452,
+      "decision_risk": 1.3185740770733576e-09,
+      "predictive_variance": 4.821797679189371e-06,
+      "joint_information_nats": 1.238828876712347,
+      "risk_standard_error": 7.060310456884263e-10,
+      "predictive_rmse_mg_L": 0.002194161757124986,
+      "realized_loss_mean": 0.0,
+      "false_negative_count": 0,
+      "false_positive_count": 0,
+      "true_exceedance_count": 4096,
+      "draws": 4096,
+      "posterior_effective_support_mean": 1.724681008419806,
+      "illustrative_after": {
+        "future_mean_mg_L": 1.9643683550479918,
+        "future_sd_mg_L": 0.0038292963186752783,
+        "future_q025_mg_L": 1.9588271117408427,
+        "future_q975_mg_L": 1.9695172696286347,
+        "exceedance_probability": 0.9999999999999998,
+        "action_strengthen_monitoring": true,
+        "bayes_risk": 2.220446049250313e-16,
+        "effective_support_size": 2.0470051651206624
+      }
+    },
+    {
+      "case_seed": 3005,
+      "method": "decision_loss",
+      "selected_indices": [
+        13,
+        10,
+        17,
+        7
+      ],
+      "selected_wells": [
+        "W14",
+        "W11",
+        "W18",
+        "W08"
+      ],
+      "before_risk": 1.0975936137747055e-07,
+      "before_effective_support": 5.039123506287702,
+      "selection_seconds": 0.5715840002521873,
+      "decision_risk": 6.784124043784923e-16,
+      "predictive_variance": 0.021487612049136757,
+      "joint_information_nats": 0.6959741403276839,
+      "risk_standard_error": 6.13807792675863e-16,
+      "predictive_rmse_mg_L": 0.15117840458486267,
+      "realized_loss_mean": 0.0,
+      "false_negative_count": 0,
+      "false_positive_count": 0,
+      "true_exceedance_count": 4096,
+      "draws": 4096,
+      "posterior_effective_support_mean": 2.678489568829692,
+      "illustrative_after": {
+        "future_mean_mg_L": 1.959363342714254,
+        "future_sd_mg_L": 0.06248608299012761,
+        "future_q025_mg_L": 1.9588271117408427,
+        "future_q975_mg_L": 1.9695172696286347,
+        "exceedance_probability": 0.9999999999999998,
+        "action_strengthen_monitoring": true,
+        "bayes_risk": 2.220446049250313e-16,
+        "effective_support_size": 1.9543076610753616
+      }
+    }
+  ],
+  "selection_traces": {
+    "coverage": [],
+    "parameter_information": [
+      {
+        "depth": 1,
+        "selected_index": 2,
+        "metrics": {
+          "decision_risk": 5.192955326773635e-08,
+          "predictive_variance": 6.816279677129746e-06,
+          "joint_information_nats": 1.121611461982818
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": -2.1925565909200155e-09
+          },
+          {
+            "index": 1,
+            "criterion": -0.6558598820838377
+          },
+          {
+            "index": 2,
+            "criterion": -1.121611461982818
+          },
+          {
+            "index": 3,
+            "criterion": -0.43787487819912846
+          },
+          {
+            "index": 4,
+            "criterion": -1.991984813530048e-15
+          },
+          {
+            "index": 5,
+            "criterion": -4.6418432106389974e-06
+          },
+          {
+            "index": 6,
+            "criterion": -0.21525495006010462
+          },
+          {
+            "index": 7,
+            "criterion": -0.493012096059074
+          },
+          {
+            "index": 8,
+            "criterion": -2.1009063314164216e-06
+          },
+          {
+            "index": 9,
+            "criterion": -0.12449292731191337
+          },
+          {
+            "index": 10,
+            "criterion": -0.5708403302173103
+          },
+          {
+            "index": 11,
+            "criterion": -0.05223812417334199
+          },
+          {
+            "index": 12,
+            "criterion": -3.51348197991126e-07
+          },
+          {
+            "index": 13,
+            "criterion": -0.00412131761237266
+          },
+          {
+            "index": 14,
+            "criterion": -0.00668480072436147
+          },
+          {
+            "index": 15,
+            "criterion": -0.00039913734637634415
+          },
+          {
+            "index": 16,
+            "criterion": -2.608515392145744e-07
+          },
+          {
+            "index": 17,
+            "criterion": -7.999770064813887e-05
+          },
+          {
+            "index": 18,
+            "criterion": -9.636975883229728e-05
+          },
+          {
+            "index": 19,
+            "criterion": -9.716279605918208e-06
+          },
+          {
+            "index": 20,
+            "criterion": -1.165649841909737e-07
+          },
+          {
+            "index": 21,
+            "criterion": -2.0915114447863098e-05
+          },
+          {
+            "index": 22,
+            "criterion": -3.4104408360382826e-05
+          },
+          {
+            "index": 23,
+            "criterion": -1.004700663107271e-07
+          }
+        ]
+      },
+      {
+        "depth": 2,
+        "selected_index": 9,
+        "metrics": {
+          "decision_risk": 2.1485280724681255e-09,
+          "predictive_variance": 4.973049349311226e-06,
+          "joint_information_nats": 1.2423482919068949
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": -1.121610397438377
+          },
+          {
+            "index": 1,
+            "criterion": -1.121406184550142
+          },
+          {
+            "index": 3,
+            "criterion": -1.1267020959728535
+          },
+          {
+            "index": 4,
+            "criterion": -1.1216114606198797
+          },
+          {
+            "index": 5,
+            "criterion": -1.121610713603105
+          },
+          {
+            "index": 6,
+            "criterion": -1.1379976413601376
+          },
+          {
+            "index": 7,
+            "criterion": -1.1268273504233113
+          },
+          {
+            "index": 8,
+            "criterion": -1.1215941284087891
+          },
+          {
+            "index": 9,
+            "criterion": -1.2423482919068949
+          },
+          {
+            "index": 10,
+            "criterion": -1.1278758029881861
+          },
+          {
+            "index": 11,
+            "criterion": -1.1235678103532076
+          },
+          {
+            "index": 12,
+            "criterion": -1.1216131365476536
+          },
+          {
+            "index": 13,
+            "criterion": -1.1247049212184699
+          },
+          {
+            "index": 14,
+            "criterion": -1.1214712817727024
+          },
+          {
+            "index": 15,
+            "criterion": -1.1215534582406783
+          },
+          {
+            "index": 16,
+            "criterion": -1.1216128369318215
+          },
+          {
+            "index": 17,
+            "criterion": -1.121299798975631
+          },
+          {
+            "index": 18,
+            "criterion": -1.1214686651958155
+          },
+          {
+            "index": 19,
+            "criterion": -1.121631385050153
+          },
+          {
+            "index": 20,
+            "criterion": -1.121612125323904
+          },
+          {
+            "index": 21,
+            "criterion": -1.1215870528448633
+          },
+          {
+            "index": 22,
+            "criterion": -1.1217447282329363
+          },
+          {
+            "index": 23,
+            "criterion": -1.1216124949080264
+          }
+        ]
+      },
+      {
+        "depth": 3,
+        "selected_index": 6,
+        "metrics": {
+          "decision_risk": 1.7054197940999383e-09,
+          "predictive_variance": 4.780519017287717e-06,
+          "joint_information_nats": 1.2553069102615826
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": -1.2423471375364712
+          },
+          {
+            "index": 1,
+            "criterion": -1.2420819829981231
+          },
+          {
+            "index": 3,
+            "criterion": -1.244590462553928
+          },
+          {
+            "index": 4,
+            "criterion": -1.2423482911782742
+          },
+          {
+            "index": 5,
+            "criterion": -1.2424178411907765
+          },
+          {
+            "index": 6,
+            "criterion": -1.2553069102615826
+          },
+          {
+            "index": 7,
+            "criterion": -1.2472225734823588
+          },
+          {
+            "index": 8,
+            "criterion": -1.2423097410662223
+          },
+          {
+            "index": 10,
+            "criterion": -1.2473377345868377
+          },
+          {
+            "index": 11,
+            "criterion": -1.244631617014175
+          },
+          {
+            "index": 12,
+            "criterion": -1.2423574628196854
+          },
+          {
+            "index": 13,
+            "criterion": -1.2402146235918172
+          },
+          {
+            "index": 14,
+            "criterion": -1.2422646035010834
+          },
+          {
+            "index": 15,
+            "criterion": -1.2418947648644474
+          },
+          {
+            "index": 16,
+            "criterion": -1.242338309561421
+          },
+          {
+            "index": 17,
+            "criterion": -1.2422434652179364
+          },
+          {
+            "index": 18,
+            "criterion": -1.242582785068608
+          },
+          {
+            "index": 19,
+            "criterion": -1.2425667640596936
+          },
+          {
+            "index": 20,
+            "criterion": -1.2423480486872926
+          },
+          {
+            "index": 21,
+            "criterion": -1.2423095782984346
+          },
+          {
+            "index": 22,
+            "criterion": -1.2426744537107142
+          },
+          {
+            "index": 23,
+            "criterion": -1.2423586881173048
+          }
+        ]
+      },
+      {
+        "depth": 4,
+        "selected_index": 7,
+        "metrics": {
+          "decision_risk": 4.717505813073286e-10,
+          "predictive_variance": 4.728153342743301e-06,
+          "joint_information_nats": 1.2611787327923873
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": -1.2553068281230098
+          },
+          {
+            "index": 1,
+            "criterion": -1.254812582071205
+          },
+          {
+            "index": 3,
+            "criterion": -1.2578932570520223
+          },
+          {
+            "index": 4,
+            "criterion": -1.255306909896064
+          },
+          {
+            "index": 5,
+            "criterion": -1.2553722872696738
+          },
+          {
+            "index": 7,
+            "criterion": -1.2611787327923873
+          },
+          {
+            "index": 8,
+            "criterion": -1.2552769969862465
+          },
+          {
+            "index": 10,
+            "criterion": -1.2602794320382924
+          },
+          {
+            "index": 11,
+            "criterion": -1.257373019234251
+          },
+          {
+            "index": 12,
+            "criterion": -1.2553072765483089
+          },
+          {
+            "index": 13,
+            "criterion": -1.2532126362508786
+          },
+          {
+            "index": 14,
+            "criterion": -1.2553463810667107
+          },
+          {
+            "index": 15,
+            "criterion": -1.2549943226583484
+          },
+          {
+            "index": 16,
+            "criterion": -1.2552967290490433
+          },
+          {
+            "index": 17,
+            "criterion": -1.2552504667797892
+          },
+          {
+            "index": 18,
+            "criterion": -1.2555600493031178
+          },
+          {
+            "index": 19,
+            "criterion": -1.2555575192550272
+          },
+          {
+            "index": 20,
+            "criterion": -1.2553067608885782
+          },
+          {
+            "index": 21,
+            "criterion": -1.2552136880236275
+          },
+          {
+            "index": 22,
+            "criterion": -1.255540478359832
+          },
+          {
+            "index": 23,
+            "criterion": -1.2553138729756812
+          }
+        ]
+      }
+    ],
+    "prediction_variance": [
+      {
+        "depth": 1,
+        "selected_index": 2,
+        "metrics": {
+          "decision_risk": 5.192955326773635e-08,
+          "predictive_variance": 6.816279677129746e-06,
+          "joint_information_nats": 1.121611461982818
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": 0.15525929085219817
+          },
+          {
+            "index": 1,
+            "criterion": 0.02619355004461402
+          },
+          {
+            "index": 2,
+            "criterion": 6.816279677129746e-06
+          },
+          {
+            "index": 3,
+            "criterion": 0.04912972350694886
+          },
+          {
+            "index": 4,
+            "criterion": 0.15525926072053886
+          },
+          {
+            "index": 5,
+            "criterion": 0.15525920450592842
+          },
+          {
+            "index": 6,
+            "criterion": 0.09035571880822128
+          },
+          {
+            "index": 7,
+            "criterion": 0.04344096850840547
+          },
+          {
+            "index": 8,
+            "criterion": 0.15525935103391536
+          },
+          {
+            "index": 9,
+            "criterion": 0.15524605026740143
+          },
+          {
+            "index": 10,
+            "criterion": 0.0333371065414301
+          },
+          {
+            "index": 11,
+            "criterion": 0.14392573795878294
+          },
+          {
+            "index": 12,
+            "criterion": 0.15525923005133618
+          },
+          {
+            "index": 13,
+            "criterion": 0.15527294577926182
+          },
+          {
+            "index": 14,
+            "criterion": 0.15464201507615116
+          },
+          {
+            "index": 15,
+            "criterion": 0.15507595356482082
+          },
+          {
+            "index": 16,
+            "criterion": 0.1552592773247182
+          },
+          {
+            "index": 17,
+            "criterion": 0.15525942943655702
+          },
+          {
+            "index": 18,
+            "criterion": 0.15524651553792865
+          },
+          {
+            "index": 19,
+            "criterion": 0.15525350670588448
+          },
+          {
+            "index": 20,
+            "criterion": 0.15525924294506815
+          },
+          {
+            "index": 21,
+            "criterion": 0.15525927800264896
+          },
+          {
+            "index": 22,
+            "criterion": 0.1552591104983239
+          },
+          {
+            "index": 23,
+            "criterion": 0.15525924766132282
+          }
+        ]
+      },
+      {
+        "depth": 2,
+        "selected_index": 9,
+        "metrics": {
+          "decision_risk": 2.1485280724681255e-09,
+          "predictive_variance": 4.973049349311226e-06,
+          "joint_information_nats": 1.2423482919068949
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": 6.816286069548025e-06
+          },
+          {
+            "index": 1,
+            "criterion": 6.790722223510171e-06
+          },
+          {
+            "index": 3,
+            "criterion": 6.781553004767387e-06
+          },
+          {
+            "index": 4,
+            "criterion": 6.81627972988659e-06
+          },
+          {
+            "index": 5,
+            "criterion": 6.8175058814770075e-06
+          },
+          {
+            "index": 6,
+            "criterion": 6.480818087236523e-06
+          },
+          {
+            "index": 7,
+            "criterion": 6.763581657616945e-06
+          },
+          {
+            "index": 8,
+            "criterion": 6.818673378405568e-06
+          },
+          {
+            "index": 9,
+            "criterion": 4.973049349311226e-06
+          },
+          {
+            "index": 10,
+            "criterion": 6.712773220673984e-06
+          },
+          {
+            "index": 11,
+            "criterion": 6.7538072224138795e-06
+          },
+          {
+            "index": 12,
+            "criterion": 6.8052969120092205e-06
+          },
+          {
+            "index": 13,
+            "criterion": 6.73363877260998e-06
+          },
+          {
+            "index": 14,
+            "criterion": 6.791115826576977e-06
+          },
+          {
+            "index": 15,
+            "criterion": 6.826165020818332e-06
+          },
+          {
+            "index": 16,
+            "criterion": 6.816504548195958e-06
+          },
+          {
+            "index": 17,
+            "criterion": 6.790307518778679e-06
+          },
+          {
+            "index": 18,
+            "criterion": 6.820720230646653e-06
+          },
+          {
+            "index": 19,
+            "criterion": 6.824777995347725e-06
+          },
+          {
+            "index": 20,
+            "criterion": 6.867213533800695e-06
+          },
+          {
+            "index": 21,
+            "criterion": 6.786071826512131e-06
+          },
+          {
+            "index": 22,
+            "criterion": 6.806857946230378e-06
+          },
+          {
+            "index": 23,
+            "criterion": 6.810253453178906e-06
+          }
+        ]
+      },
+      {
+        "depth": 3,
+        "selected_index": 6,
+        "metrics": {
+          "decision_risk": 1.7054197940999383e-09,
+          "predictive_variance": 4.780519017287717e-06,
+          "joint_information_nats": 1.2553069102615826
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": 4.973046993980452e-06
+          },
+          {
+            "index": 1,
+            "criterion": 4.950408779715466e-06
+          },
+          {
+            "index": 3,
+            "criterion": 4.959144833752323e-06
+          },
+          {
+            "index": 4,
+            "criterion": 4.9730494040855534e-06
+          },
+          {
+            "index": 5,
+            "criterion": 4.972697025574634e-06
+          },
+          {
+            "index": 6,
+            "criterion": 4.780519017287717e-06
+          },
+          {
+            "index": 7,
+            "criterion": 4.927257539827628e-06
+          },
+          {
+            "index": 8,
+            "criterion": 4.9725060154268315e-06
+          },
+          {
+            "index": 10,
+            "criterion": 4.898867391938365e-06
+          },
+          {
+            "index": 11,
+            "criterion": 4.9213204854508565e-06
+          },
+          {
+            "index": 12,
+            "criterion": 4.97321496249932e-06
+          },
+          {
+            "index": 13,
+            "criterion": 4.962765676161645e-06
+          },
+          {
+            "index": 14,
+            "criterion": 4.9718683910633665e-06
+          },
+          {
+            "index": 15,
+            "criterion": 4.976376662266767e-06
+          },
+          {
+            "index": 16,
+            "criterion": 4.9729007277677685e-06
+          },
+          {
+            "index": 17,
+            "criterion": 4.975313313477538e-06
+          },
+          {
+            "index": 18,
+            "criterion": 4.9627441618118814e-06
+          },
+          {
+            "index": 19,
+            "criterion": 4.975040071429626e-06
+          },
+          {
+            "index": 20,
+            "criterion": 4.9729674354470794e-06
+          },
+          {
+            "index": 21,
+            "criterion": 4.970174209314483e-06
+          },
+          {
+            "index": 22,
+            "criterion": 4.971927226493818e-06
+          },
+          {
+            "index": 23,
+            "criterion": 4.972803086705432e-06
+          }
+        ]
+      },
+      {
+        "depth": 4,
+        "selected_index": 10,
+        "metrics": {
+          "decision_risk": 3.460333413037031e-10,
+          "predictive_variance": 4.6990217921257654e-06,
+          "joint_information_nats": 1.2602794320382924
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": 4.780516240253038e-06
+          },
+          {
+            "index": 1,
+            "criterion": 4.757244173560476e-06
+          },
+          {
+            "index": 3,
+            "criterion": 4.769374737174405e-06
+          },
+          {
+            "index": 4,
+            "criterion": 4.780519064323443e-06
+          },
+          {
+            "index": 5,
+            "criterion": 4.780264386191994e-06
+          },
+          {
+            "index": 7,
+            "criterion": 4.728153342743301e-06
+          },
+          {
+            "index": 8,
+            "criterion": 4.7795532046521205e-06
+          },
+          {
+            "index": 10,
+            "criterion": 4.6990217921257654e-06
+          },
+          {
+            "index": 11,
+            "criterion": 4.718196572255778e-06
+          },
+          {
+            "index": 12,
+            "criterion": 4.780496365956819e-06
+          },
+          {
+            "index": 13,
+            "criterion": 4.7610357565334126e-06
+          },
+          {
+            "index": 14,
+            "criterion": 4.787238003870972e-06
+          },
+          {
+            "index": 15,
+            "criterion": 4.782559570142442e-06
+          },
+          {
+            "index": 16,
+            "criterion": 4.780473551291731e-06
+          },
+          {
+            "index": 17,
+            "criterion": 4.7801711736284586e-06
+          },
+          {
+            "index": 18,
+            "criterion": 4.766723833741875e-06
+          },
+          {
+            "index": 19,
+            "criterion": 4.784895242398307e-06
+          },
+          {
+            "index": 20,
+            "criterion": 4.7803382411072334e-06
+          },
+          {
+            "index": 21,
+            "criterion": 4.778302971343747e-06
+          },
+          {
+            "index": 22,
+            "criterion": 4.7781911258065746e-06
+          },
+          {
+            "index": 23,
+            "criterion": 4.780094384908111e-06
+          }
+        ]
+      }
+    ],
+    "decision_loss": [
+      {
+        "depth": 1,
+        "selected_index": 13,
+        "metrics": {
+          "decision_risk": 6.255417191181056e-13,
+          "predictive_variance": 0.15527294577926182,
+          "joint_information_nats": 0.00412131761237266
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": 1.0977620485850756e-07
+          },
+          {
+            "index": 1,
+            "criterion": 1.2672786459805296e-07
+          },
+          {
+            "index": 2,
+            "criterion": 5.192955326773635e-08
+          },
+          {
+            "index": 3,
+            "criterion": 1.0530004626498751e-07
+          },
+          {
+            "index": 4,
+            "criterion": 1.0975937756851212e-07
+          },
+          {
+            "index": 5,
+            "criterion": 1.0977365920731771e-07
+          },
+          {
+            "index": 6,
+            "criterion": 1.0269541882244188e-07
+          },
+          {
+            "index": 7,
+            "criterion": 1.1257995571499133e-07
+          },
+          {
+            "index": 8,
+            "criterion": 1.1668611562447653e-07
+          },
+          {
+            "index": 9,
+            "criterion": 5.5713100606015475e-08
+          },
+          {
+            "index": 10,
+            "criterion": 3.7124103311001605e-08
+          },
+          {
+            "index": 11,
+            "criterion": 8.543982497194458e-08
+          },
+          {
+            "index": 12,
+            "criterion": 1.0072540272037037e-07
+          },
+          {
+            "index": 13,
+            "criterion": 6.255417191181056e-13
+          },
+          {
+            "index": 14,
+            "criterion": 1.247240038540487e-07
+          },
+          {
+            "index": 15,
+            "criterion": 1.0942807878323163e-07
+          },
+          {
+            "index": 16,
+            "criterion": 1.258768142237826e-07
+          },
+          {
+            "index": 17,
+            "criterion": 1.2710692741391139e-11
+          },
+          {
+            "index": 18,
+            "criterion": 5.058327305889482e-07
+          },
+          {
+            "index": 19,
+            "criterion": 1.0138802083612883e-07
+          },
+          {
+            "index": 20,
+            "criterion": 9.191636385179336e-08
+          },
+          {
+            "index": 21,
+            "criterion": 1.9876253854606007e-10
+          },
+          {
+            "index": 22,
+            "criterion": 1.254932383170683e-07
+          },
+          {
+            "index": 23,
+            "criterion": 1.0701095437071553e-07
+          }
+        ]
+      },
+      {
+        "depth": 2,
+        "selected_index": 10,
+        "metrics": {
+          "decision_risk": 3.170207152347615e-16,
+          "predictive_variance": 0.03333020318679112,
+          "joint_information_nats": 0.5748779653985188
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": 6.255772809493632e-13
+          },
+          {
+            "index": 1,
+            "criterion": 3.4537954093916134e-13
+          },
+          {
+            "index": 2,
+            "criterion": 1.252904030524249e-15
+          },
+          {
+            "index": 3,
+            "criterion": 2.7734758933917192e-14
+          },
+          {
+            "index": 4,
+            "criterion": 6.255534285015685e-13
+          },
+          {
+            "index": 5,
+            "criterion": 6.273579745974533e-13
+          },
+          {
+            "index": 6,
+            "criterion": 9.433807901526592e-13
+          },
+          {
+            "index": 7,
+            "criterion": 5.686857235120968e-15
+          },
+          {
+            "index": 8,
+            "criterion": 5.067565291005938e-13
+          },
+          {
+            "index": 9,
+            "criterion": 2.4045435781383517e-14
+          },
+          {
+            "index": 10,
+            "criterion": 3.170207152347615e-16
+          },
+          {
+            "index": 11,
+            "criterion": 1.668470049620563e-13
+          },
+          {
+            "index": 12,
+            "criterion": 3.688897277920322e-12
+          },
+          {
+            "index": 14,
+            "criterion": 5.435092480243764e-13
+          },
+          {
+            "index": 15,
+            "criterion": 5.947785666760019e-13
+          },
+          {
+            "index": 16,
+            "criterion": 5.8279492343160655e-12
+          },
+          {
+            "index": 17,
+            "criterion": 1.5247612200619542e-13
+          },
+          {
+            "index": 18,
+            "criterion": 8.052109326528445e-14
+          },
+          {
+            "index": 19,
+            "criterion": 5.075722828151719e-13
+          },
+          {
+            "index": 20,
+            "criterion": 4.1233032613274823e-13
+          },
+          {
+            "index": 21,
+            "criterion": 6.432289596791652e-13
+          },
+          {
+            "index": 22,
+            "criterion": 5.236640114592017e-13
+          },
+          {
+            "index": 23,
+            "criterion": 4.669593704764718e-13
+          }
+        ]
+      },
+      {
+        "depth": 3,
+        "selected_index": 17,
+        "metrics": {
+          "decision_risk": 4.5536491244391186e-17,
+          "predictive_variance": 0.03332693132793339,
+          "joint_information_nats": 0.5750202753657828
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": 3.144186300207963e-16
+          },
+          {
+            "index": 1,
+            "criterion": 3.703634621210483e-16
+          },
+          {
+            "index": 2,
+            "criterion": 6.114900252818245e-17
+          },
+          {
+            "index": 3,
+            "criterion": 1.6740081543176188e-16
+          },
+          {
+            "index": 4,
+            "criterion": 3.2959746043559335e-16
+          },
+          {
+            "index": 5,
+            "criterion": 3.174543961037557e-16
+          },
+          {
+            "index": 6,
+            "criterion": 3.5128150388530344e-16
+          },
+          {
+            "index": 7,
+            "criterion": 1.0538445116559103e-16
+          },
+          {
+            "index": 8,
+            "criterion": 2.883977778811442e-16
+          },
+          {
+            "index": 9,
+            "criterion": 6.214646852686911e-16
+          },
+          {
+            "index": 11,
+            "criterion": 2.1250362580715887e-16
+          },
+          {
+            "index": 12,
+            "criterion": 2.370499629922307e-15
+          },
+          {
+            "index": 14,
+            "criterion": 3.5258254649228604e-16
+          },
+          {
+            "index": 15,
+            "criterion": 3.3263322651855276e-16
+          },
+          {
+            "index": 16,
+            "criterion": 3.8827448201050885e-15
+          },
+          {
+            "index": 17,
+            "criterion": 4.5536491244391186e-17
+          },
+          {
+            "index": 18,
+            "criterion": 5.334274688628682e-17
+          },
+          {
+            "index": 19,
+            "criterion": 2.1423834928313568e-16
+          },
+          {
+            "index": 20,
+            "criterion": 1.0798653637955624e-16
+          },
+          {
+            "index": 21,
+            "criterion": 6.461844948013606e-17
+          },
+          {
+            "index": 22,
+            "criterion": 7.068998164605489e-17
+          },
+          {
+            "index": 23,
+            "criterion": 2.40692882291782e-16
+          }
+        ]
+      },
+      {
+        "depth": 4,
+        "selected_index": 7,
+        "metrics": {
+          "decision_risk": 5.898059818321144e-17,
+          "predictive_variance": 0.019445975224847083,
+          "joint_information_nats": 0.750097633381551
+        },
+        "candidate_scores": [
+          {
+            "index": 0,
+            "criterion": 7.936359902593892e-17
+          },
+          {
+            "index": 1,
+            "criterion": 6.028164079019405e-17
+          },
+          {
+            "index": 2,
+            "criterion": 6.982261990806649e-17
+          },
+          {
+            "index": 3,
+            "criterion": 6.895525817007808e-17
+          },
+          {
+            "index": 4,
+            "criterion": 6.895525817007808e-17
+          },
+          {
+            "index": 5,
+            "criterion": 6.765421556309548e-17
+          },
+          {
+            "index": 6,
+            "criterion": 6.201636426617085e-17
+          },
+          {
+            "index": 7,
+            "criterion": 5.898059818321144e-17
+          },
+          {
+            "index": 8,
+            "criterion": 6.418476861114186e-17
+          },
+          {
+            "index": 9,
+            "criterion": 7.589415207398531e-17
+          },
+          {
+            "index": 11,
+            "criterion": 6.722053469410127e-17
+          },
+          {
+            "index": 12,
+            "criterion": 6.591949208711867e-17
+          },
+          {
+            "index": 14,
+            "criterion": 8.500145032286355e-17
+          },
+          {
+            "index": 15,
+            "criterion": 6.288372600415926e-17
+          },
+          {
+            "index": 16,
+            "criterion": 6.418476861114186e-17
+          },
+          {
+            "index": 18,
+            "criterion": 6.982261990806649e-17
+          },
+          {
+            "index": 19,
+            "criterion": 6.505213034913027e-17
+          },
+          {
+            "index": 20,
+            "criterion": 6.591949208711867e-17
+          },
+          {
+            "index": 21,
+            "criterion": 5.941427905220564e-17
+          },
+          {
+            "index": 22,
+            "criterion": 6.895525817007808e-17
+          },
+          {
+            "index": 23,
+            "criterion": 7.546047120499111e-17
+          }
+        ]
+      }
+    ]
+  },
+  "case_total_seconds": 2.4853353342041373
+}

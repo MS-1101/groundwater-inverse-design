@@ -1,0 +1,482 @@
+[
+  {
+    "case_seed": 1101,
+    "method": "coverage",
+    "selected_indices": [
+      20,
+      23,
+      4,
+      7
+    ],
+    "selected_wells": [
+      "W21",
+      "W24",
+      "W05",
+      "W08"
+    ],
+    "before_risk": 0.00011220635452938026,
+    "before_effective_support": 6.051270257536983,
+    "selection_seconds": 0.0,
+    "decision_risk": 4.1388850988788945e-09,
+    "predictive_variance": 9.196341803477829e-05,
+    "joint_information_nats": 0.5760956171312014,
+    "risk_standard_error": 1.9369980532996347e-09,
+    "predictive_rmse_mg_L": 0.007958416659638461,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 0,
+    "draws": 4096,
+    "posterior_effective_support_mean": 3.6291791648130145,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.009579155291973916,
+      "future_sd_mg_L": 0.0028730417519203513,
+      "future_q025_mg_L": 0.007139551740621151,
+      "future_q975_mg_L": 0.013179117338882898,
+      "exceedance_probability": 2.3395664206046144e-27,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 2.105609778544153e-26,
+      "effective_support_size": 4.270445155217934
+    }
+  },
+  {
+    "case_seed": 1101,
+    "method": "parameter_information",
+    "selected_indices": [
+      2,
+      9,
+      20,
+      21
+    ],
+    "selected_wells": [
+      "W03",
+      "W10",
+      "W21",
+      "W22"
+    ],
+    "before_risk": 0.00011220635452938026,
+    "before_effective_support": 6.051270257536983,
+    "selection_seconds": 0.5244400831870735,
+    "decision_risk": 5.5775147937800483e-33,
+    "predictive_variance": 4.371310901786408e-06,
+    "joint_information_nats": 1.1455167563101392,
+    "risk_standard_error": 3.495756547446794e-33,
+    "predictive_rmse_mg_L": 0.0004087110546432961,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 0,
+    "draws": 4096,
+    "posterior_effective_support_mean": 2.3372630431486514,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.007455238326637122,
+      "future_sd_mg_L": 0.000152517436580057,
+      "future_q025_mg_L": 0.007385932018603492,
+      "future_q975_mg_L": 0.007705421614325406,
+      "exceedance_probability": 1.078941723214985e-86,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 9.710475508934864e-86,
+      "effective_support_size": 2.1424975779585718
+    }
+  },
+  {
+    "case_seed": 1101,
+    "method": "prediction_variance",
+    "selected_indices": [
+      2,
+      9,
+      20,
+      10
+    ],
+    "selected_wells": [
+      "W03",
+      "W10",
+      "W21",
+      "W11"
+    ],
+    "before_risk": 0.00011220635452938026,
+    "before_effective_support": 6.051270257536983,
+    "selection_seconds": 0.5172433750703931,
+    "decision_risk": 9.4517220715585e-31,
+    "predictive_variance": 3.8971359040246725e-06,
+    "joint_information_nats": 1.1316666231027863,
+    "risk_standard_error": 9.039061088316786e-31,
+    "predictive_rmse_mg_L": 0.0005456933089563927,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 0,
+    "draws": 4096,
+    "posterior_effective_support_mean": 2.334151232902216,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.00745398081932087,
+      "future_sd_mg_L": 0.00015277234069928285,
+      "future_q025_mg_L": 0.007385932018603492,
+      "future_q975_mg_L": 0.007705421614325406,
+      "exceedance_probability": 1.1106223446637421e-89,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 9.995601101973679e-89,
+      "effective_support_size": 2.1642090814389956
+    }
+  },
+  {
+    "case_seed": 1101,
+    "method": "decision_loss",
+    "selected_indices": [
+      2,
+      21,
+      13,
+      12
+    ],
+    "selected_wells": [
+      "W03",
+      "W22",
+      "W14",
+      "W13"
+    ],
+    "before_risk": 0.00011220635452938026,
+    "before_effective_support": 6.051270257536983,
+    "selection_seconds": 0.4997823340818286,
+    "decision_risk": 1.2041822742204745e-30,
+    "predictive_variance": 9.334565675427582e-06,
+    "joint_information_nats": 1.1272835932599883,
+    "risk_standard_error": 1.1821528121652349e-30,
+    "predictive_rmse_mg_L": 0.0009392756721699249,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 0,
+    "draws": 4096,
+    "posterior_effective_support_mean": 2.3351076297367452,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.007464492495344272,
+      "future_sd_mg_L": 0.001001612003150703,
+      "future_q025_mg_L": 0.00727361841080895,
+      "future_q975_mg_L": 0.007705421614325406,
+      "exceedance_probability": 3.325454565505641e-79,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 2.9929091089550773e-78,
+      "effective_support_size": 2.3400360397066096
+    }
+  },
+  {
+    "case_seed": 1102,
+    "method": "coverage",
+    "selected_indices": [
+      20,
+      23,
+      4,
+      7
+    ],
+    "selected_wells": [
+      "W21",
+      "W24",
+      "W05",
+      "W08"
+    ],
+    "before_risk": 0.09552265251608942,
+    "before_effective_support": 6.324993141240821,
+    "selection_seconds": 0.0,
+    "decision_risk": 8.557187149865816e-07,
+    "predictive_variance": 0.002062626091297232,
+    "joint_information_nats": 0.9598174556022452,
+    "risk_standard_error": 6.152115749097864e-07,
+    "predictive_rmse_mg_L": 0.04571895685124365,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 39,
+    "draws": 4096,
+    "posterior_effective_support_mean": 2.8705966415167437,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.5326252344554745,
+      "future_sd_mg_L": 0.006004862409487807,
+      "future_q025_mg_L": 0.5308517893002157,
+      "future_q975_mg_L": 0.5347907881099648,
+      "exceedance_probability": 2.1110506206385233e-13,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 1.899945558574671e-12,
+      "effective_support_size": 2.142515952528308
+    }
+  },
+  {
+    "case_seed": 1102,
+    "method": "parameter_information",
+    "selected_indices": [
+      10,
+      20,
+      2,
+      9
+    ],
+    "selected_wells": [
+      "W11",
+      "W21",
+      "W03",
+      "W10"
+    ],
+    "before_risk": 0.09552265251608942,
+    "before_effective_support": 6.324993141240821,
+    "selection_seconds": 0.5207323338836432,
+    "decision_risk": 3.5727241982971947e-12,
+    "predictive_variance": 4.93294663143578e-05,
+    "joint_information_nats": 1.3542766404445463,
+    "risk_standard_error": 1.6762563288361887e-12,
+    "predictive_rmse_mg_L": 0.0072237133052398235,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 39,
+    "draws": 4096,
+    "posterior_effective_support_mean": 2.0517869488954212,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.5331559785362484,
+      "future_sd_mg_L": 0.0010363823787173604,
+      "future_q025_mg_L": 0.5308517893002157,
+      "future_q975_mg_L": 0.5347907881099648,
+      "exceedance_probability": 3.8956163235827276e-30,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 3.5060546912244547e-29,
+      "effective_support_size": 1.8308746927404913
+    }
+  },
+  {
+    "case_seed": 1102,
+    "method": "prediction_variance",
+    "selected_indices": [
+      10,
+      20,
+      2,
+      16
+    ],
+    "selected_wells": [
+      "W11",
+      "W21",
+      "W03",
+      "W17"
+    ],
+    "before_risk": 0.09552265251608942,
+    "before_effective_support": 6.324993141240821,
+    "selection_seconds": 0.5218534581363201,
+    "decision_risk": 4.298134756772974e-12,
+    "predictive_variance": 6.422106458643085e-06,
+    "joint_information_nats": 1.315037096731174,
+    "risk_standard_error": 2.8779354978690406e-12,
+    "predictive_rmse_mg_L": 0.00119347238383436,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 39,
+    "draws": 4096,
+    "posterior_effective_support_mean": 2.1484273864667127,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.53271952516514,
+      "future_sd_mg_L": 0.0012426612157281718,
+      "future_q025_mg_L": 0.5308517893002157,
+      "future_q975_mg_L": 0.5347907881099648,
+      "exceedance_probability": 2.5015141641636808e-25,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 2.2513627477473126e-24,
+      "effective_support_size": 2.1827435161165494
+    }
+  },
+  {
+    "case_seed": 1102,
+    "method": "decision_loss",
+    "selected_indices": [
+      2,
+      17,
+      21,
+      5
+    ],
+    "selected_wells": [
+      "W03",
+      "W18",
+      "W22",
+      "W06"
+    ],
+    "before_risk": 0.09552265251608942,
+    "before_effective_support": 6.324993141240821,
+    "selection_seconds": 0.5225047916173935,
+    "decision_risk": 2.832691078728486e-18,
+    "predictive_variance": 0.0009340077743503761,
+    "joint_information_nats": 1.2239438616769043,
+    "risk_standard_error": 1.5217888761367402e-18,
+    "predictive_rmse_mg_L": 0.0336687719820746,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 39,
+    "draws": 4096,
+    "posterior_effective_support_mean": 2.318406879338355,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.532604875923083,
+      "future_sd_mg_L": 0.0012698053328260035,
+      "future_q025_mg_L": 0.5308517893002157,
+      "future_q975_mg_L": 0.5347907881099648,
+      "exceedance_probability": 4.1939088634488554e-47,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 3.77451797710397e-46,
+      "effective_support_size": 2.2459273227407195
+    }
+  },
+  {
+    "case_seed": 1103,
+    "method": "coverage",
+    "selected_indices": [
+      20,
+      23,
+      4,
+      7
+    ],
+    "selected_wells": [
+      "W21",
+      "W24",
+      "W05",
+      "W08"
+    ],
+    "before_risk": 0.06842860657635842,
+    "before_effective_support": 9.20912808505836,
+    "selection_seconds": 0.0,
+    "decision_risk": 9.360342514253568e-07,
+    "predictive_variance": 0.001597452891874066,
+    "joint_information_nats": 1.3163496028312704,
+    "risk_standard_error": 7.629374511780191e-07,
+    "predictive_rmse_mg_L": 0.04086176787945873,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 22,
+    "draws": 4096,
+    "posterior_effective_support_mean": 2.7835872798980996,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.2962334746534649,
+      "future_sd_mg_L": 0.030731125674325635,
+      "future_q025_mg_L": 0.17958621006738196,
+      "future_q975_mg_L": 0.30526851761747975,
+      "exceedance_probability": 7.556648998964917e-19,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 6.800984099068425e-18,
+      "effective_support_size": 2.238992936166407
+    }
+  },
+  {
+    "case_seed": 1103,
+    "method": "parameter_information",
+    "selected_indices": [
+      10,
+      20,
+      2,
+      9
+    ],
+    "selected_wells": [
+      "W11",
+      "W21",
+      "W03",
+      "W10"
+    ],
+    "before_risk": 0.06842860657635842,
+    "before_effective_support": 9.20912808505836,
+    "selection_seconds": 0.5229979590512812,
+    "decision_risk": 6.879906971851196e-17,
+    "predictive_variance": 8.541033899598521e-05,
+    "joint_information_nats": 1.7486676576624895,
+    "risk_standard_error": 4.7593032296336313e-17,
+    "predictive_rmse_mg_L": 0.008979122113457003,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 22,
+    "draws": 4096,
+    "posterior_effective_support_mean": 1.9467915420372193,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.3041488243404215,
+      "future_sd_mg_L": 0.002367734127271924,
+      "future_q025_mg_L": 0.30279045266927757,
+      "future_q975_mg_L": 0.30526851761747975,
+      "exceedance_probability": 1.0539676027057173e-22,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 9.485708424351456e-22,
+      "effective_support_size": 1.798274825292725
+    }
+  },
+  {
+    "case_seed": 1103,
+    "method": "prediction_variance",
+    "selected_indices": [
+      10,
+      20,
+      2,
+      16
+    ],
+    "selected_wells": [
+      "W11",
+      "W21",
+      "W03",
+      "W17"
+    ],
+    "before_risk": 0.06842860657635842,
+    "before_effective_support": 9.20912808505836,
+    "selection_seconds": 0.5233999169431627,
+    "decision_risk": 3.672352852569736e-17,
+    "predictive_variance": 1.1801746236619418e-05,
+    "joint_information_nats": 1.7239215264132792,
+    "risk_standard_error": 2.3568330979254286e-17,
+    "predictive_rmse_mg_L": 0.00378722389049739,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 22,
+    "draws": 4096,
+    "posterior_effective_support_mean": 1.977011072823391,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.3040595891746931,
+      "future_sd_mg_L": 0.0007005814117054581,
+      "future_q025_mg_L": 0.30279045266927757,
+      "future_q975_mg_L": 0.30526851761747975,
+      "exceedance_probability": 2.9370406378464927e-22,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 2.6433365740618434e-21,
+      "effective_support_size": 1.9467049048105316
+    }
+  },
+  {
+    "case_seed": 1103,
+    "method": "decision_loss",
+    "selected_indices": [
+      2,
+      17,
+      21,
+      16
+    ],
+    "selected_wells": [
+      "W03",
+      "W18",
+      "W22",
+      "W17"
+    ],
+    "before_risk": 0.06842860657635842,
+    "before_effective_support": 9.20912808505836,
+    "selection_seconds": 0.5202872911468148,
+    "decision_risk": 8.944667963350878e-19,
+    "predictive_variance": 0.00024051197364518206,
+    "joint_information_nats": 1.7021729748131573,
+    "risk_standard_error": 3.075743786936232e-19,
+    "predictive_rmse_mg_L": 0.015890179554892095,
+    "realized_loss_mean": 0.0,
+    "false_negative_count": 0,
+    "false_positive_count": 0,
+    "true_exceedance_count": 22,
+    "draws": 4096,
+    "posterior_effective_support_mean": 2.017500240667367,
+    "illustrative_after": {
+      "future_mean_mg_L": 0.30404458681196767,
+      "future_sd_mg_L": 0.0007123472080539585,
+      "future_q025_mg_L": 0.30279045266927757,
+      "future_q975_mg_L": 0.30526851761747975,
+      "exceedance_probability": 3.4721824132969026e-37,
+      "action_strengthen_monitoring": false,
+      "bayes_risk": 3.1249641719672124e-36,
+      "effective_support_size": 1.9658814666267237
+    }
+  }
+]
