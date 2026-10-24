@@ -1,0 +1,195 @@
+{
+  "config": {
+    "status": "Synthetic benchmark experiment; no field observations",
+    "grid_refinement": 4,
+    "dt_days": 2.0,
+    "times_days": [
+      180.0,
+      365.0,
+      545.0
+    ],
+    "k_quadrature_order": 3,
+    "source_quadrature_order": 5,
+    "prior_rule": "tensor Gauss-Hermite; independent source axes",
+    "log_k_standard_deviation": [
+      0.35,
+      0.7
+    ],
+    "source_median_mg_L": 57.87,
+    "source_log_standard_deviation": 0.45,
+    "pulse_edges_days": [
+      0.0,
+      120.0,
+      240.0,
+      360.0
+    ],
+    "initial_concentration_cells": [
+      [
+        4,
+        6
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        10,
+        6
+      ]
+    ],
+    "initial_head_cells": [
+      [
+        6,
+        3
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    "candidate_cells": [
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        8,
+        7
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        10,
+        5
+      ],
+      [
+        10,
+        7
+      ],
+      [
+        10,
+        9
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        12,
+        5
+      ],
+      [
+        12,
+        7
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        14,
+        5
+      ],
+      [
+        14,
+        7
+      ],
+      [
+        14,
+        9
+      ]
+    ],
+    "receptor_cell": [
+      10,
+      6
+    ],
+    "concentration_noise_sd_mg_L": 0.08,
+    "head_noise_sd_m": 1.5,
+    "future_threshold_mg_L": 0.6,
+    "false_negative_cost": 9.0,
+    "false_positive_cost": 1.0,
+    "batch_size": 4,
+    "design_outer_draws": 256,
+    "validation_outer_draws": 4096,
+    "development_case_seeds": [
+      1101,
+      1102,
+      1103
+    ],
+    "heldout_case_seeds": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3006,
+      3007,
+      3008,
+      3009,
+      3010,
+      3011,
+      3012
+    ],
+    "selection": "greedy batch with common random numbers; no sequential observations within batch",
+    "evaluation": "independent outer Monte Carlo; exact posterior summation on finite support"
+  },
+  "config_sha256": "6e4324bac9fec5638ec1f9e39be2a49d728b15a4f8bf13adc3eea223470517eb",
+  "created_utc": "2026-09-08T23:57:24Z",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "numpy": "2.5.3",
+    "platform": "macOS-14.6.1-arm64-arm-64bit",
+    "hardware": "CPU; BLAS thread limits set by launch command"
+  },
+  "archived_execution_config_sha256": "6f41fbf83fe51bd712af3172e1f7c24f7d7b970b15ae0c7475c2e765ab391631",
+  "archived_execution_source_sha256": {
+    "physics.py": "867a22799641c0a62082174bbc09d949c24de599783c8db1f4371c10056b285b",
+    "inference_design.py": "4b0b9237229a041d2cc3115eae64e87f091500ca03ff3180cf24f5a70bf773bb"
+  }
+}
