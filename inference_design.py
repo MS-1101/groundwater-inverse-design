@@ -3,7 +3,6 @@
 The ensemble is a documented quadrature approximation to a continuous prior.
 The inner posterior is summed exactly on this finite support; outer predictive
 measurements are Monte Carlo. Design and validation draws use different seeds.
-All observations in this research package are simulated, not field samples.
 """
 from __future__ import annotations
 import argparse
