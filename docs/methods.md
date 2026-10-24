@@ -59,7 +59,7 @@ A causal check follows from source timing. The third release begins at day 240, 
 The action is whether to strengthen monitoring. Let $q(\theta)$ be receptor concentration and $p=P(q>0.6\mid y)$. With false-negative cost 9 and false-positive cost 1, the optimal posterior risk is
 
 $$
-r(p)=\min\{9p,1-p\}.
+r(p)=\min\lbrace 9p,1-p\rbrace.
 $$
 
 Strengthening is selected when $p>0.1$. Equality uses the non-strengthening action in the implementation. The concentration threshold and costs are experimental action settings.
